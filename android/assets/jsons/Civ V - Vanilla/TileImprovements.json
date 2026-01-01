@@ -40,7 +40,7 @@
 		"shortcutKey": "T"
 	},
 
-	// Resource-specific
+	
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Offshore Platform",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"turnsToBuild": 1,  
 		"techRequired": "Refrigeration",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"turnsToBuild": 1,  
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
@@ -94,7 +94,7 @@
 		"shortcutKey": "F"
 	},
 
-	// Military improvement
+	
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
@@ -104,7 +104,7 @@
 		"shortcutKey": "O"
 	},
 
-	// Transportation
+	
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -113,9 +113,9 @@
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [
-            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+            {"text":"Movement cost is halved if the destination tile also has a Road/Railroad."},
+            {"text":"With Machinery, movement cost becomes 1/3.", "link":"Technology/Machinery"},
+            {"text":"Bridging rivers requires Engineering.", "link":"Technology/Engineering"}
         ]
 	},
 	{
@@ -126,21 +126,21 @@
 		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn when in your territory"],
 		"shortcutKey": "R",
         "civilopediaText": [
-            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
-            {"text":"Provides a +25% [Production] bonus to cities connected to the capital by Railroads"}
+            {"text":"Movement cost drops to 1/10 when the destination tile also has a Railroad."},
+            {"text":"Cities linked to the capital by Railroad gain +25% Production."}
         ]
 	},
 
-	// Removals
-	// Any improvement that starts with 'Remove ' is automatically changed into
-	// the improvement that removes the terrainfeature after it.
+	
+	
+	
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+        "civilopediaText": [{"text":"On completion, grants a one-time Production bonus that scales with distance to the nearest city."}]
 	},
 	{
 		"name": "Remove Jungle",
@@ -152,7 +152,7 @@
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
-		// Has no tech requirements as it can always be built
+		
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
@@ -164,7 +164,7 @@
 		"shortcutKey": "X"
 	},
 
-	// These are unique and have unique in-game checks related to them
+	
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
@@ -180,7 +180,7 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
-    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    
     {
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
@@ -190,7 +190,7 @@
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
-	// Great Person improvements
+	
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -240,7 +240,7 @@
 		]
 	},
 
-	//Civilization unique improvements
+	
 	{
 		"name": "Moai",
 		"uniqueTo": "Polynesia",
@@ -266,18 +266,17 @@
 		"shortcutKey": "F"
 	},
 
-	// Unbuildable improvements
+	
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",
-			"Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
 	},
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+        "civilopediaText": [{"text":"A stark sign of what war leaves behind."}]
 	},
 	{
 		"name": "City center",
@@ -285,14 +284,14 @@
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
         "civilopediaText": [
-			{"text":"Marks the center of a city"},
-			{"text":"Appearance changes with the technological era of the owning civilization"}
+			{"text":"Identifies the city center tile."},
+			{"text":"Appearance updates to match the owner’s tech era."}
 		]
 	},
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable", "Excluded from map editor"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+        "civilopediaText": [{"text":"Harbors uncivilized raiders; periodically spawns a hostile unit."}]
 	}
 ]

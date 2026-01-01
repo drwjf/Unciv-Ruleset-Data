@@ -1,14 +1,10 @@
 [
-	//Spectator
-    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
 	},
 
 	{
-		//nations
 		"name": "Babylon",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
@@ -16,18 +12,18 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Nebuchadnezzar II",
 
-		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
-		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "Great King of Babylon, guardian of the fertile plains between the rivers! Your people have raised mighty walls and towering gardens, shaping a city that shines as a beacon of knowledge and wonder. From the stars above, your scholars chart the heavens, while your scribes preserve the wisdom of ages. Traders gather at your gates, and armies march under your banners, carrying your name across distant lands.",
+		"startIntroPart2": "Stand firm, ruler of Babylon! Let your genius in science and statecraft guide your people toward greatness, so that your legacy will endure long after the rivers have shifted and the stones of empires have crumbled.",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "The walls of Babylon will not shield you from our wrath. Prepare yourself for destruction.",
+		"attacked": "You dare strike at the city of wisdom? Your arrogance will be your undoing.",
+		"defeated": "Even in defeat, Babylon’s name will echo long after yours is forgotten.",
+		"introduction": "I am the voice of Babylon, where knowledge and empire walk hand in hand. Speak, and be heard.",
 
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "The gates of Babylon open to you. May our meeting bring balance, not strife.",
+		"hateHello": "Your presence offends me. Babylon has no patience for deceitful tongues.",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "Let us speak of trade.",
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
@@ -48,19 +44,18 @@
 		"preferredVictoryType":"Diplomatic",
 		"personality": "Alexander",
 
-		"startIntroPart1": "Great King Alexander, leader of the mighty Greek nation, you are truly blessed by the gods. In 480 BC, quarrelsome city-states such as Athens, Sparta, Thebes, found a way to join their forces, allowing Greece to defeat the mighty Persia in the 5th century BC, both on land and sea. Following their example, you lead a Greek coalition and finally struck down the Persian Empire in 331 BC. You conquered almost all the known world, and from Europe to Africa to India, you built an empire unmatched by any before it.",
-		"startIntroPart2": "Megalexandros, son of Zeus, will you ride Bucephalas again, to gift the world with the brightness of the Greek culture? Will your new empire shine through the ages of history?",
+		"startIntroPart1": "Hail, leader of Greece, cradle of philosophy and theater, master of city-states united by shared destiny! Your people have built temples to the gods, debated in assemblies, and given the world a vision of reason and beauty that endures through the ages. From the marbled halls of Athens to the iron ranks of Sparta, your culture and discipline shape both mind and battlefield.",
+		"startIntroPart2": "Rise now, ruler of Greece! Guide your people with wisdom and valor, and ensure that the legacy of Hellas shines brighter than the stars, remembered as the birthplace of both freedom and empire.",
 
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"denounced": "You'll regret this decision, fool. I swear it!",
-		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+		"declaringWar": "The spears of Greece are raised, and your name shall be struck from history.",
+		"attacked": "You dare to challenge Hellas? Our phalanx will crush your ambition.",
+		"defeated": "You may claim victory, but Greece’s spirit cannot be conquered.",
+		"introduction": "I speak for Greece, land of philosophy and valor. Approach with respect, and we may find accord.",
 
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
+		"neutralHello": "The Agora welcomes many voices. Speak, and let us see if wisdom guides your words.",
+		"hateHello": "You walk among us like a shadow. Greece will not suffer treachery lightly.",
 
-		"tradeRequest": "My friend, does this seem reasonable to you?",
+		"tradeRequest": "Shall we bargain for mutual gain?",
 
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
@@ -81,16 +76,18 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Wu Zetian",
 
-        "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
-        "startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Son of Heaven, ruler of China, heir to a thousand dynasties! Your empire stretches across rivers and mountains, bound together by walls of stone and the wisdom of your ancestors. In the silence of your courts, poets give voice to beauty, and in the clamor of your workshops, artisans craft wonders unmatched. Your armies march in ordered ranks, while your mandarins preserve harmony and order throughout the realm.",
+        "startIntroPart2": "Stand proud, sovereign of China! Let your legacy of invention, discipline, and grandeur carry your people toward an age when their name is synonymous with civilization itself.",
 
-        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
-		"attacked": "Fool! I will disembowel you all!",
-		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
-		"introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.",
-		"neutralHello": "How are you today?",
-		"hateHello": "Oh. It's you?",
-		"tradeRequest": "My friend, do you think you can accept this request?",
+        "declaringWar": "The dragon stirs, and your insolence must be answered with fire and steel.",
+		"attacked": "You strike at the Middle Kingdom? The rivers themselves will rise against you.",
+		"defeated": "Though I fall, China endures, as eternal as the mountains and the sky.",
+		"introduction": "I am the voice of China, where harmony and order guide the empire. Speak your purpose.",
+        
+		"neutralHello": "Our mandarins record this meeting. May it be written as one of peace.",
+		"hateHello": "Your presence is a stain upon the court. China does not forget insults.",
+        
+		"tradeRequest": "Let us see if profit can bind what words cannot.",
 
         "outerColor": [9, 112, 84],
         "innerColor": [255,255,255],
@@ -113,18 +110,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Ramesses II",
 
-        "startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
-        "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Pharaoh of Egypt, lord of the Nile and master of eternal stone! Your people raise monuments that pierce the heavens, binding sand and river into a kingdom of splendor. The lifeblood of the Nile nourishes your fields, while artisans carve wonders that defy the passing of centuries. Priests chant in the shadow of temples, and armies march beneath the blazing sun, guarding treasures and tombs alike.",
+        "startIntroPart2": "Rise, ruler of Egypt! Shape a civilization whose glory outlives empires, and ensure your name is etched upon the very pillars of history.",
 
-		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
-		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
-		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
-		"introduction": "Greetings, I am Ramesses the god. I am the living embodiment of Egypt, mother and father of all civilizations.",
+		"declaringWar": "The Nile runs red today, for Egypt will sweep you away like the desert wind.",
+		"attacked": "You dare profane the land of the pharaohs? Our chariots will crush your foolish assault.",
+		"defeated": "Stone may fall and dynasties fade, but Egypt’s legacy outlasts your fleeting triumph.",
+		"introduction": "I am the voice of Egypt, keeper of the Nile and builder of wonders eternal. Who comes before me?",
 
-		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
+		"neutralHello": "The sun greets you as it rises over our temples. May our meeting be as prosperous as the flood.",
+		"hateHello": "You sully the presence of the gods by standing before me. Egypt does not welcome you.",
 
-		"tradeRequest": "Generous Egypt makes you this offer.",
+		"tradeRequest": "Egypt offers riches. Will you bargain with us?",
 
 		"outerColor": [255, 252, 3],
 		"innerColor": [83, 0, 208],
@@ -146,17 +143,19 @@
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Elizabeth",
 
-        "startIntroPart1": "Long live to Your Highness, Queen Elizabeth Gloriana, leader and protector of the glorious England! Through history, enduring many invasions, England strengthened its will, playing smartly with diplomacy, cunning, and military power, to eventually rose as one of the most dominant Empires the world has ever known. Their matchless navy, brilliant scientists and artists, and powerful merchants, have shaped the known world for centuries.",
-        "startIntroPart2": "Queen Elizabeth, will England cast once more its brightness upon all lands and seas of the world? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Majestic ruler of England, keeper of crown and empire! Your island realm has braved storm and sea, forging a navy that carries your banners across every horizon. From crowded markets of London to the castles of old, your people thrive on trade, discovery, and the rule of law. Poets sing of your glory, while explorers map the distant edges of the world.",
+        "startIntroPart2": "Stand tall, sovereign of England! With steadfast fleets and bold ambition, let your nation command the waves and shape an age where your name resounds across continents.",
 
-        "declaringWar": "By the grace of God, your days are numbered.",
-		"attacked": "We shall never surrender.",
-		"defeated": "You have triumphed over us. The day is yours.",
-		"denounced": "Your reckless pride will destroy you if you're not careful.",
-		"introduction": "We are pleased to meet you.",
-		"neutralHello": "Hello, again.",
-		"hateHello": "Oh, it's you!",
-		"tradeRequest": "Would you be interested in a trade agreement with England?",
+        "declaringWar": "The banners of England are raised — we shall meet you on the field and drive you into the sea.",
+		"attacked": "You strike at England? Then feel the bite of our longbows and the thunder of our navy.",
+		"defeated": "You may seize victory, but England’s crown will rise again, unbroken and unbowed.",
+		"introduction": "I speak for England, a kingdom of proud ships and steadfast hearts. State your intentions.",
+
+        "neutralHello": "England greets you with courtesy. Let us see if this meeting leads to peace or rivalry.",
+		"hateHello": "Your presence is neither wanted nor trusted. England has no patience for your kind.",
+        
+		"tradeRequest": "Shall we strike a bargain?",
+        
 		"outerColor": [109, 2, 0],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
@@ -175,16 +174,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Napoleon",
 
-        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
-        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Noble ruler of France, guardian of splendor and chivalry! Your realm has flourished with castles and cathedrals, where knights ride under banners of honor and courts resound with poetry and song. From the fertile heartlands to the shining capital, your people have cultivated refinement, valor, and an unyielding pride. Artists and generals alike look to you for guidance, as your kingdom’s destiny stretches across fields of battle and halls of culture.",
+        "startIntroPart2": "Rise, sovereign of France! Let your brilliance in war and beauty in peace weave a legacy that crowns your nation as the jewel of civilization.",
 
-        "declaringWar": "You're disturbing us, prepare for war.",
-		"attacked": "You've fallen into my trap. I'll bury you.",
-		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
-		"neutralHello": "Hello.",
-		"hateHello": "It's you.",
-		"tradeRequest": "France offers you this exceptional proposition.",
+        "declaringWar": "France marches to war — and your lands shall soon echo with the sound of our triumph.",
+		"attacked": "You dare raise arms against France? Our banners will not falter, and our armies will answer.",
+		"defeated": "You may claim this day, but France’s glory endures beyond your fleeting conquest.",
+		"introduction": "I am the voice of France, land of chivalry and splendor. Speak, and let us see if you come as friend or foe.",
+        
+		"neutralHello": "France greets you with civility. May our words today shape tomorrow’s path.",
+		"hateHello": "Your face is unwelcome here, and your words will find no kindness in France.",
+        
+		"tradeRequest": "Shall we discuss terms of exchange?",
 
         "outerColor": [ 38, 98, 255],
         "innerColor": [239,236,148],
@@ -207,23 +208,25 @@
 		"personality": "Catherine",
 
 
-        "startIntroPart1": "Hail to Imperial Majesty Catherine, Empress of all Russians. Living in the largest country in the world, from the Pacific Ocean in the east to the Baltic Sea in the west, your people endured wars, droughts, and many disasters, imbuing the Russian society with heroism and tenacity, and producing artists and scientists among the best in the world. Russia is a powerful empire which rightfully claims its place in the world concert of superpowers.",
-        "startIntroPart2": "Empress Catherine, your people are eager for Russian glory, to revive the sacred light of the Motherland. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Mighty ruler of Russia, sovereign of endless steppes and frozen forests! Your people endure the harshness of winter and the vastness of the land, drawing strength from hardship and unity from tradition. From gilded domes rising above your cities to horsemen thundering across the plains, your empire commands awe and resilience. The songs of your people carry tales of struggle and triumph, binding generations under your rule.",
+        "startIntroPart2": "Stand firm, Tsar of Russia! With patience and power, guide your nation across the ages, until its dominion stretches farther than the eye can see, and its name is spoken with reverence and fear alike.",
 
-        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
-		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
-		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
-		"denounced": "So be it. You'll have only yourself to blame.",
-		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
-		"neutralHello": "Hello!",
-		"hateHello": "What do you need?!",
-		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+        "declaringWar": "The bear awakens, and your lands shall tremble beneath our march.",
+		"attacked": "You dare spill Russian blood? Winter itself will fight at our side.",
+		"defeated": "You may win today, but Russia’s spirit endures longer than your empire ever will.",
+		"introduction": "I am the voice of Russia, vast as the steppes and unyielding as the frost. Speak, and be measured.",
+        
+		"neutralHello": "Russia greets you. Let us see if this meeting brings peace or conflict.",
+		"hateHello": "Your words are empty, and your presence unworthy. Russia will not be deceived.",
+        
+		"tradeRequest": "Let us see if trade can profit us both.",
+        
 		"outerColor": [239, 180, 0],
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Siberian Riches",
-		"uniques": ["[+1 Production] from every [Strategic resource]","[+100]% [Horses] resource production",
-			"[+100]% [Iron] resource production","[+100]% [Uranium] resource production"],
+		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
+			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
@@ -239,17 +242,19 @@
 		"personality": "Augustus Caesar",
 
 
-        "startIntroPart1": "Ave Caesar Augustus, Emperor of Rome and Dominus of the Roman Empire! Your empire was the most powerful and feared of all in Western civilization. The Roman people crafted so brilliantly its culture, law, art, and warfare, that no one could contest the supremacy of Rome. Force and Honor led to glorious conquests, a domination of all the lands from Spain in the west to Syria in the east, even reaching the remote barbarian lands of England and Germany. Roman art and architecture have been praised for millenia and have been envied by all lesser civilizations who have followed.",
-        "startIntroPart2": "O glorious Imperator, your people celebrate you and ask for the glory of Rome! In these times of darkness, the Pax Romana will be a beacon of light for all! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Glorious ruler of Rome, heir to the eagles and master of empire! Your legions march with unmatched discipline, spreading law and order across the lands they conquer. Roads and aqueducts carry the lifeblood of civilization, binding provinces to the eternal city. From the roar of the Colosseum to the senate’s chambers, your people embody strength, unity, and ambition.",
+        "startIntroPart2": "Rise now, sovereign of Rome! Let your destiny be written in triumph, as your empire stands eternal — a beacon of might and legacy to all the ages.",
 
-        "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
-		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
-		"defeated": "The gods have deprived Rome of their favour. We have been defeated.",
-		"denounced": "I didn't believe you had this kind of backbone.",
-		"introduction": "I greet you. I am Augustus, Imperator and Pontifex Maximus of Rome. If you are a friend of Rome, you are welcome.",
-		"neutralHello": "Hail.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "I offer this, for your consideration.",
+        "declaringWar": "The legions march, and Rome declares you an enemy of the Empire.",
+		"attacked": "You dare raise arms against Rome? Our standards will rise over your ruins.",
+		"defeated": "Rome may bend today, but its name is eternal — unlike yours.",
+		"introduction": "I speak for Rome, the Eternal City. Show respect, and perhaps you will endure.",
+        
+		"neutralHello": "Rome greets you. May this meeting bring order, not chaos.",
+		"hateHello": "Your insolence is unworthy of Rome. Do not test our patience further.",
+        
+		"tradeRequest": "Let us discuss terms worthy of the Empire.",
+        
 		"outerColor": [70, 0, 118],
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
@@ -269,22 +274,24 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Harun al-Rashid",
 
-        "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
-        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Noble leader of Arabia, guardian of desert trade and bearer of the crescent! From the shifting sands rise cities of learning and faith, where caravans laden with riches cross the endless dunes. Your scholars preserve wisdom, your merchants span empires, and your warriors ride swift steeds beneath the blazing sun. Minarets rise above the horizon, calling your people to unity and purpose.",
+        "startIntroPart2": "Guide them well, sovereign of Arabia! Through faith, knowledge, and commerce, let your civilization shine like an oasis — a beacon of prosperity that endures beyond the desert winds.",
 
-        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
-		"attacked": "Fool! You will soon regret dearly! I swear it!",
-		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
-		"denounced": "Well done, my friend. Now I look forward to our next battle even more!",
-		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
-		"neutralHello": "Peace be upon you.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Come forth, let's do business.",
+        "declaringWar": "By the desert’s will, we rise in arms against you. Prepare for the storm of Arabia.",
+		"attacked": "You strike at our caravans and our people? Then the wrath of the crescent shall answer.",
+		"defeated": "Though you claim victory today, Arabia’s spirit will endure beyond your fleeting triumph.",
+		"introduction": "I am the voice of Arabia, where faith and trade flourish in equal measure. Speak, and be heard.",
+        
+		"neutralHello": "The desert welcomes the traveler. May our words today bring peace and fortune.",
+		"hateHello": "Your presence is like dust in the wind — unwelcome and soon to be swept away.",
+        
+		"tradeRequest": "Let us see what profit may unite us.",
+        
 		"outerColor": [43, 88, 46],
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route", "[+100]% [Oil] resource production"],
+		"uniques": ["[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
@@ -298,16 +305,18 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "George Washington",
 
-        "startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
-        "startIntroPart2": "President Washington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Leader of America, guardian of liberty and pioneer of the frontier! Your nation has risen with bold spirit, stretching from shining seas to untamed wilderness. In your cities, industry thrives, invention flourishes, and voices cry for freedom and justice. Soldiers march with determination, while settlers carve a destiny across vast new lands.",
+        "startIntroPart2": "Stand proud, ruler of America! With courage and vision, guide your people to prosperity, so that your republic may stand as a beacon of hope and power for all the world.",
 
-        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
-		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-		"introduction": "The people of the United States of America welcome you.",
-		"neutralHello": "Good day.",
-		"hateHello": "Well?",
-		"tradeRequest": "Is the following trade of interest to you?",
+        "declaringWar": "The eagle spreads its wings, and America marches to war against you.",
+		"attacked": "You fire upon the land of the free? Then we will answer with steel and resolve.",
+		"defeated": "You may break our armies, but the American spirit will never yield to you.",
+		"introduction": "I speak for America, a nation of pioneers and promise. State your intentions clearly.",
+        
+		"neutralHello": "America greets you in goodwill. Let us see if this meeting leads to peace or rivalry.",
+		"hateHello": "Your words are hollow, and your presence an insult. Do not test our patience further.",
+        
+		"tradeRequest": "Let us strike a fair deal.",
 
         "outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
@@ -331,17 +340,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Oda Nobunaga",
 
-        "startIntroPart1": "Lord Oda Nobunaga, ruler of Japan, the land of the Rising Sun is at your command! Through history, Japanese people lived and died with honor, proud of their rich culture of arts and letters. Years of bloody civil wars, invasions of foreign powers, wealth but also great poverty, have never altered the strong will of the Rising Sun island, as the Bushido spirit has imbued the fields of battle and the Japanese society for millenia. At the end of the 19th century, under foreign influence, your people took the path of modernity, and in a few decades, made of Japan a land of technological innovation and powerful industry, with which only few nations can compete.",
-        "startIntroPart2": "O great daimyo, will you take on your hands the Japan destiny, for the Rising Sun to light the world? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Shogun of Japan, master of the rising sun and guardian of honor! Upon your islands, tradition and discipline shape a people of unmatched resolve. From the sword of the samurai to the brush of the poet, your nation balances art and war with equal devotion. The sea shields your home, yet your fleets and warriors carry your name far beyond its shores.",
+        "startIntroPart2": "Lead wisely, ruler of Japan! Through courage, loyalty, and innovation, forge a legacy that endures as bright as the dawn that breaks upon your sacred mountains.",
 
-        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "You were much wiser than I thought.",
-		"denounced": "Alright then. I trust you've thought it through.",
-		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you...",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+        "declaringWar": "The honor of Japan demands battle — steel yourself, for our blades are unsheathed.",
+		"attacked": "You dare strike the land of the rising sun? Our warriors will answer without hesitation.",
+		"defeated": "You may scatter our armies, but the spirit of Bushidō cannot be broken.",
+		"introduction": "I speak for Japan, where tradition and discipline guide our people. Show respect, and you shall be heard.",
+        
+		"neutralHello": "Japan greets you with courtesy. May this meeting bring harmony, not discord.",
+		"hateHello": "Your presence is unwelcome. Japan will not suffer dishonor at your hands.",
+        
+		"tradeRequest": "Let us see if profit can bind our nations.",
+        
 		"outerColor": [255, 255, 255],
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
@@ -361,17 +372,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Gandhi",
 
-        "startIntroPart1": "Wise Mahatma Gandhi, great leader of India, we honor you! India is one of the oldest countries in the world with 10,000 years of history, built on spirit and religion, as three of the world's great religions - Hinduism, Buddhism and Jainism - appeared on this sacred land. Every aspect of India society reveres art, music and color, showing great wealth but also grinding poverty. For centuries, India was torn between local kingdoms fighting each other but also repelling invaders. In the 12th century AD, Muslim Turks tried to conquer India, then the Mongols took their place. In the early 17th century, India, still fragmented, was colonized by the English and their diplomacy and technological superiority. After two centuries of British dominion, Indian nationalism woke up, and you, Great Mahatma, have led a peaceful and victorious rebellion never seen anywhere in history!",
-        "startIntroPart2": "Gandhi, your people ask again to be led on the path of freedom. Under protection of Ganesha and Surya, can India accomplish its great potential? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Great soul of India, keeper of faith and unity amidst countless peoples! Your land flourishes with rivers and jungles, where sages seek truth, artisans craft beauty, and farmers sustain millions. Temples and palaces rise above the plains, and the voices of many traditions find harmony beneath your guidance. From the wisdom of the past to the promise of the future, your civilization endures with patience and grace.",
+        "startIntroPart2": "Rise now, ruler of India! With compassion and resolve, lead your people toward an age where peace and prosperity shine brighter than the sun upon the Ganges.",
 
-        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
-		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
-		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
-		"denounced": "Interesting choice.",
-		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
-		"neutralHello": "I wish you peace.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "My friend, are you interested in this arrangement?",
+        "declaringWar": "India seeks peace, but when peace is denied, we march to war with unshakable resolve.",
+		"attacked": "You bring violence to the land of many peoples? Then you will face unity stronger than steel.",
+		"defeated": "You may break our armies, but you cannot break the spirit of India.",
+		"introduction": "I am the voice of India, a land of faith, wisdom, and countless peoples. Speak your purpose here.",
+        
+		"neutralHello": "India greets you in friendship. May our meeting bring light, not shadow",
+		"hateHello": "Your words carry only poison. India does not forget betrayal.",
+        
+		"tradeRequest": "Let us speak of exchange.",
 
         "outerColor": [14, 113, 4],
         "innerColor": [255, 163, 71],
@@ -391,17 +403,19 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Otto von Bismarck",
 
-        "startIntroPart1": "All hail to Otto von Bismarck, first chancellor of Germany and its empire! During the ancient era, Germany was a land fragmented in several tribes but already showed great promise as the Roman Empire itself struggled to bend the Germans to its will. Germany, as one nation, was slowly built on the ruins of the Holy Roman Empire, and waited 1871 to be finally unified after the glorious victory on France and Napoleon III. The German people are creative, intelligent, industrious and proven to be talented warriors through history. Despite great catastrophes and failures in the first half of the 20th century, Germany can always rely on its people will and strength to be among the greatest and powerful nations in the world.",
-        "startIntroPart2": "Great Prince Bismarck, glory and power are at the heart of the German nation. Your people are bright, and lend you their iron will to lead Germany once again. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Iron Chancellor of Germany, master of discipline and industry! Your people are renowned for their precision, their courage in battle, and their brilliance in science and art. From the castles on the Rhine to the foundries of the modern age, your nation has forged strength through unity and determination. Armies march in tight formation, inventors shape the future, and musicians give voice to the spirit of your land.",
+        "startIntroPart2": "Rise now, ruler of Germany! With steel and vision, lead your people to glory, until your empire stands as a monument to order, power, and achievement.",
 
-        "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
-		"attacked": "Corrupted villain! We will bring you into the ground!",
-		"defeated": "Germany has been destroyed. I weep for the future generations.",
-		"denounced": "That boldness is risky, especially if you lack the strength to back it up.",
-		"introduction": "Guten Tag. In the name of the great German people, I bid you welcome.",
-		"neutralHello": "What now?",
-		"hateHello": "So, out with it!",
-		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+        "declaringWar": "The order has been given — Germany marches, and your downfall begins.",
+		"attacked": "You dare spill German blood? Our response will be swift and merciless.",
+		"defeated": "You may shatter our armies, but the strength of Germany will rise again.",
+		"introduction": "I am the voice of Germany, a land of steel, discipline, and determination. State your purpose.",
+        
+		"neutralHello": "Germany greets you with formality. Let us see whether peace or rivalry follows.",
+		"hateHello": "Your words are hollow, and your presence unwelcome. Germany does not suffer fools.",
+        
+		"tradeRequest": "Speak, and we shall see if a bargain can be struck.",
+        
 		"outerColor": [179, 178, 184],
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
@@ -425,16 +439,18 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Suleiman I",
 
-        "startIntroPart1": "O Great Sultan Suleiman, may the God bless you! You are revered for your power, wealth and generosity, and you truly deserves to be called the 'Magnificent'! The Ottoman Empire was born in Bithynia, starting as a small country in Eastern Anatolia in 12th century, then expanded to west into Anatolia. Over the next century, your people vanquished the empire of Byzantium, annexing Turkey and the Balkans, and smartly assimilating all wonders and knowledge of the Byzantine civilization. In the mid 15th century, the Ottomans added Constantinople to their empire, establishing a strategic link between Europe and the Middle East. The Empire would continue to expand for centuries reaching North Africa, Middle East and Eastern Europe at its height, but brutally disappeared in the chaos of the first world war, in early 20th century.",
-        "startIntroPart2": "Mighty Caliph, your people ask you to build again the Empire, to the level of power and glory it once achieved, and beyond! Will you revive the Ottoman golden age? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Sultan of the Ottomans, master of two continents and guardian of empire! From the minarets of Istanbul to the caravan routes of Anatolia, your realm unites East and West beneath a single banner. Your ships command the seas, your armies sweep across plains and mountains, and your architects raise mosques and palaces that rival the heavens. A people of faith and ambition look to you to expand their dominion, guided by strength and vision.",
+        "startIntroPart2": "Rule wisely, sovereign of the Ottomans! Through conquest, trade, and devotion, forge a legacy that endures as long as the call to prayer echoes across your vast dominion.",
 
-        "declaringWar": "Your continued insolence and failure to recognize our preeminence leads us to war.",
-		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
-		"introduction": "From the magnificence of Topkapi, the Ottoman nation greets you, stranger! I'm Suleiman, Kayser-I Rum, and I bestow upon you my welcome!",
-		"neutralHello": "Greetings!",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Let us do business! Would you be interested?",
+        "declaringWar": "The empire rises in arms — your defiance ends here beneath the crescent banner.",
+		"attacked": "You dare assault the Ottomans? Our Janissaries will answer your insolence.",
+		"defeated": "This battle is lost, but the Ottoman spirit will endure beyond your fleeting victory.",
+		"introduction": "I am the voice of the Ottomans, heirs of empire and masters of sea and land. Speak, if you come with respect.",
+        
+		"neutralHello": "The Sultan’s court receives you. Let us see whether this meeting leads to alliance or discord.",
+		"hateHello": "Your presence offends us. The Ottomans suffer neither deceit nor weakness.",
+        
+		"tradeRequest": "Shall we make an accord?",
 
         "outerColor": [245,248,185],
         "innerColor": [18,84,30],
@@ -457,18 +473,19 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Sejong",
 
-        "startIntroPart1": "Greetings to you, King Sejong the Great, heir of the Choson Dynasty! Prosperity and benevolence towards the common man are the principles of your reign, and made of you the most beloved Korean king. You always aimed to provide a fair and equal society for all your people, and also to favor knowledge and technological discoveries. Your wisdom and intelligence imbued all the Korean society, and the scholars of the Jade Hall developed Korea's first written language, Hangul, sharing further literature and science to the people after centuries of darkness.",
-        "startIntroPart2": "Wise Sejong, will you gift your people with the radiance of harmony and knowledge to dispel the darkness once again? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Respected ruler of Korea, guardian of scholars and shaper of destiny! Your mountains shelter wise courts and vibrant villages, while your seas carry trade and knowledge to distant shores. From the brushstrokes of poets to the designs of inventors, your people pursue learning with unmatched devotion. Soldiers march with discipline, and artisans craft beauty that endures through the centuries.",
+        "startIntroPart2": "Lead proudly, sovereign of Korea! With wisdom and ingenuity, guide your people to an age where science, culture, and strength together secure their place among the great civilizations of history.",
 
-        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
-		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
-		"defeated": "Now the question is who will protect my people. A dark age has come.",
-		"denounced": "Such unpleasant conduct is typical of Yangpyeong, not someone like you.",
-		"introduction": "Welcome to the palace of Choson, stranger. I am the learned King Sejong, who looks after his great people.",
+        "declaringWar": "The wisdom of our scholars guides us — and now they say your empire must fall.",
+		"attacked": "You dare strike the Land of Morning Calm? Our armies will answer with iron resolve.",
+		"defeated": "You may bring us down, but Korea’s spirit of learning and resilience will never die.",
+		"introduction": "I am the voice of Korea, where mountains guard us and scholars light the path of progress. Speak your mind.",
 
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you",
-		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		"neutralHello": "Korea greets you with courtesy. Let us see whether knowledge or conflict grows from this meeting.",
+		"hateHello": "Your words ring false, and your presence is an insult. Korea has no patience for deception.",
+        
+		"tradeRequest": "Shall we bargain for mutual gain?",
+        
 		"outerColor": [27,33,96],
 		"innerColor": [255,0,0],
 		"favoredReligion": "Confucianism",
@@ -488,17 +505,18 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Hiawatha",
 
-        "startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Your people lived near the great and holy lake Ontario since the ancient ages, on a land that will be later known as New York city. Long ago, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida became one nation, the Haudenosaunee, the Iroquois. Although not having a written language, the wise Iroquois created the Great Law of Peace, which can be considered the first established constitution. For decades, your people fought powerful enemies, such as the Huron, and then the French and English colonists. With less warriors and inferior weaponry, the Iroquois still survived and walk on the path of peace and harmony, until their way of living faded away under the crush of the newborn United States nation.",
-        "startIntroPart2": "Great Sachem Hiawatha, do you hear the complaints of your people? Can you light the path leading to the ancient Iroquois union? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Great chief of the Iroquois, voice of the longhouse and keeper of the forest paths! Your people dwell among endless woods and rivers, bound together by alliance and council. Hunters tread softly where trees stand tall, warriors strike swiftly across hidden trails, and elders speak with wisdom to guide the generations. Unity and tradition have made your confederacy strong, a light of order in a world of strife.",
+        "startIntroPart2": "Lead with balance, ruler of the Iroquois! Through harmony with the land and strength of your people, let your nation endure, proud and free, beneath the sheltering canopy of the forest.",
 
-        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
-		"attacked": "You evil creature! My braves will slaughter you!",
-		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
-		"denounced": "Go back to the shadows, you fool.",
-		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
-		"neutralHello": "Good day.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Does this trade work for you, my friend?",
+        "declaringWar": "The council has spoken — the Iroquois take up arms, and you will feel the fury of the forest.",
+		"attacked": "You trespass upon our lands? The woods themselves will rise against you.",
+		"defeated": "You may silence us today, but the spirit of the Longhouse cannot be destroyed.",
+		"introduction": "I speak for the Iroquois, guardians of the forest and the rivers. Come with honesty, and you will be heard.",
+        
+		"neutralHello": "The fire burns brightly in our council. You are welcome to sit and speak.",
+		"hateHello": "Your words carry no respect. Leave, before we drive you from our lands.",
+        
+		"tradeRequest": "Let us see what you offer in return.",
 
         "outerColor": [54,72,72],
         "innerColor": [246,205,137],
@@ -519,16 +537,18 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Darius I",
 
-        "startIntroPart1": "Great King Darius of Persia, the heaven casts its light upon you! Persian people are strong and wise, as their leader. In old ages, the great Persian king Cyrus fought back the mighty Median empire and finally destroyed the Medes in 550 BC. Cunning diplomacy and military achievements helped then to conquer the wealthy Lydia and the powerful Babylon, Cyrus' son conquering the eternal Egypt some years later. At the height of its power, the Persian Empire reached the shores of Macedonia, at the very door of the upstart Greek city-states. Persia would have prospered for centuries if Alexander of Macedon hadn't brutally destroyed the great empire in one violent strike.",
-        "startIntroPart2": "King Darius, the people of Persia await, longing for its past glory and power! Persia of the Immortals must reborn, to punish its foes and rebuild the gleaming Persepolis! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Great King of Persia, lord of empires and master of the royal road! Your dominion stretches across deserts, mountains, and fertile plains, uniting many peoples beneath your rule. Messengers race along your highways, armies march with discipline, and palaces gleam with splendor. Your people thrive in times of peace, yet in war they strike with speed and certainty, guided by your command.",
+        "startIntroPart2": "Rise, ruler of Persia! With tolerance and might, forge a civilization whose glory endures across the ages, shining like the jewels of Persepolis beneath the eternal sun.",
 
-        "declaringWar": "Your continue existence is an embarrassment to all leaders everywhere! You must be destroyed!",
-		"attacked": "Curse you! You are beneath me, son of a donkey driver! I will crush you!",
-		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
-		"introduction": "Peace be on you! I am Darius, the great and outstanding king of kings of great Persia... but I suppose you knew that.",
-		"neutralHello": "Good day to you!",
-		"hateHello": "Ahh... you...",
-		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
+        "declaringWar": "The empire of Persia rises in arms — your lands will soon bow before our banners.",
+		"attacked": "You strike at Persia? Then face the Immortals and learn the price of your folly.",
+		"defeated": "You may bring me down, but Persia’s name will outlast your fleeting triumphs.",
+		"introduction": "I am the voice of Persia, where kings rule with splendor and armies march with discipline. Speak, if you come with respect.",
+        
+		"neutralHello": "Persia greets you. May this meeting bring order and prosperity, not discord.",
+		"hateHello": "Your words are venom, and your presence an insult. Persia does not forget such offenses.",
+        
+		"tradeRequest": "Let us see if trade profits us both.",
 
         "outerColor": [153,5,3],
         "innerColor": [244,232,54],
@@ -553,17 +573,19 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Kamehameha I",
 
-        "startIntroPart1": "Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Kanawai Mamalahoe, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819.",
-        "startIntroPart2": "Wise and benevolent King, will you unite your people once again by wearing the bright mantle of the Lion of the Pacific? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Navigator of Polynesia, master of waves and keeper of the stars! Across the vast ocean, your people sail in bold canoes, guided not by maps but by the heavens above and the rhythms of the sea. Islands rise like jewels in the water, bound together by your courage and wisdom. Where others fear the endless horizon, your people see pathways of discovery, strength, and unity.",
+        "startIntroPart2": "Stand tall, leader of Polynesia! With the sea as your road and the sky as your compass, let your civilization thrive across distant shores, leaving a legacy written upon the waters of the world.",
 
-        "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
-		"attacked": "It is obvious now that I misjudged you and your true intentions.",
-		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
-		"denounced": "Friend, careful with your steps.",
-		"introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
-		"neutralHello": "Welcome, friend!",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Come, let our people feast together!",
+        "declaringWar": "The seas carry our canoes, and they now bring war to your shores.",
+		"attacked": "You trespass upon our islands? The ocean itself will rise against you.",
+		"defeated": "You may scatter our fleets, but the spirit of Polynesia will sail forever.",
+		"introduction": "I speak for Polynesia, children of the waves and keepers of the stars. Tell us your purpose.",
+        
+		"neutralHello": "The tides have brought you here. Let us see whether friendship or conflict follows.",
+		"hateHello": "You dishonor our islands with your presence. Do not mistake patience for weakness.",
+        
+		"tradeRequest": "Let us see what you offer in return.",
+        
 		"outerColor": [217,89,0],
 		"innerColor": [255,255,75],
 		"favoredReligion": "Christianity",
@@ -585,16 +607,19 @@
 		"preferredVictoryType":"Diplomatic",
 		"personality": "Ramkhamhaeng",
 
-        "startIntroPart1": "O Great King Ramkhamhaeng, the Siamese people obey you with respect and fear! The beautiful and mysterious land of Siam is an ancient country in the heart of Southeast Asia, which was besieged by many foes, plagued by bloody war and great poverty, but eventually the smart and loyal Siamese people have endured and triumphed. Siam was a part of the Khmer Empire until the 13th century AD, before its brave people took arms and led a revolution to form the small Sukhothai kingdom. After many battles and diplomacy prowess, this tiny kingdom became a mighty empire, which would dominate South East Asia for more than a century.",
-        "startIntroPart2": "Wise and powerful King Ramkhamhaeng, your people want to revive these days of glory! Can you make a new dawn break on Siam? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "King of Siam, guardian of temples and lord of the white elephants! Your kingdom prospers among rivers and jungles, where monks preserve wisdom and artisans shape beauty from stone and gold. Your people live in harmony with the land, yet stand ready to defend it with valor. From bustling markets to sacred shrines, your realm shines as a beacon of faith, culture, and diplomacy.",
+        "startIntroPart2": "Lead with grace, ruler of Siam! Through reverence and alliance, guide your nation to flourish, until its legacy echoes across both jungle and city alike.",
 
-        "declaringWar": "You lowly, arrogant fool! I will make you regret of your insolence!",
-		"attacked": "You scoundrel! I shall prepare to fend you off!",
-		"defeated": "Although I lost, my honor shall endure. I wish you good luck.",
-		"introduction": "I, Pho Kun Ramkhamhaeng, King of Siam, consider it a great honor that you have walked to visit my country of Siam.",
-		"neutralHello": "Welcome.",
-		"hateHello": "Greetings.",
-		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
+        "declaringWar": "The kingdom of Siam has shown restraint long enough — now you will face our wrath.",
+		"attacked": "You strike at our elephants and our temples? Then you shall know the fury of Siam.",
+		"defeated": "You may claim victory in battle, but Siam’s spirit will outlast your triumph.",
+		"introduction": "I am the voice of Siam, land of rivers, temples, and harmony. Speak, and we will listen.",
+        
+		"neutralHello": "Siam greets you with calm courtesy. May our meeting bring peace, not strife.",
+		"hateHello": "Your words ring false, and your presence dishonors this court. Siam has no welcome for you.",
+        
+		"tradeRequest": "Will you trade fairly with Siam?",
+        
 		"outerColor": [245, 230, 55],
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
@@ -614,16 +639,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Isabella",
 
-        "startIntroPart1": "Holy Isabella, envoy of God, Great Queen of Castille and León, your people celebrate you! Spain is a beautiful and ancient country, a link between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean. The Spanish culture had taken the best of the Christian and Muslim worlds, and was ready to dominate the world for centuries. Powerful Spanish military fleets and brave explorers found and conquered much of the New World. Exploiting a whole new continent and its riches, Spain reached a state of power few could compete with for hundreds of years.",
-        "startIntroPart2": "O splendid and virtuous Isabella! By the will of the heavens, will Spain reborn to achieve its holy destiny and become a new El Dorado? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Monarch of Spain, uniter of crowns and seeker of horizons! Your people forged their strength in the crucible of faith and conquest, raising mighty cathedrals and marching under banners of gold and crimson. From the fields of Castile to the seas beyond Gibraltar, explorers sail with your blessing, carrying the cross and the crown into lands unknown. Wealth flows from distant shores, and your empire rises upon the promise of discovery.",
+        "startIntroPart2": "Rise, ruler of Spain! With courage and conviction, let your fleets and armies carry your legacy across oceans, until your dominion shines as brightly as the sun that never sets.",
 
-        "declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
-		"attacked": "Repugnant spawn of the devil! You will pay!",
-		"defeated": "If my defeat is, without any doubt, the will of God, then I will accept it.",
-		"introduction": "God blesses those who deserve it. I am Isabel of Spain.",
-		"neutralHello": "Greetings.",
-		"hateHello": "Well?",
-		"tradeRequest": "I hope this deal will receive your blessing.",
+        "declaringWar": "The sword and the cross of Spain rise against you — prepare to be swept aside.",
+		"attacked": "You dare strike at Spain? Our armies will march, and our fleets will thunder across the seas.",
+		"defeated": "You may win this day, but Spain’s glory will shine long after your name is dust.",
+		"introduction": "I am the voice of Spain, land of faith, courage, and discovery. State your intentions clearly.",
+        
+		"neutralHello": "Spain greets you with courtesy. May this meeting bring honor to both our realms.",
+		"hateHello": "Your words are poison, and your presence an affront. Spain has no patience for deceit.",
+        
+		"tradeRequest": "Shall we strike a bargain?",
+        
 		"outerColor": [84,26,26],
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
@@ -644,22 +672,24 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Askia",
 
-        "startIntroPart1": "Askia, leader of the Songhai people and greatest of all, may God watch your path towards glory! Songhai was under the rule of the mighty West African state of Mali until the middle of the 14th century. Great King Sunni Ali Ber fought for independance, and showed to all Songhai's power, by conquering territories and repelling many foes who sought to destroy the rising kingdom. Ultimately, conquest of the wealthy cities of Timbuktu and Jenne made Songhai an empire with enough economic power to survive for a century, until the empire bowed down before foes with advanced technology - muskets against spearmen.",
-        "startIntroPart2": "King Askia, your people know there's still hope, that the hour of revenge is coming. Give them wealth and power, give them mighty weapons of iron and fire, to destroy any foe, for Songhai to revive! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Mighty ruler of Songhai, lord of the Niger and master of the desert roads! Your empire rises where river and sand meet, a realm of caravans, warriors, and golden wealth. From the bustling markets of Gao to the distant oases of the Sahara, your people thrive on trade and conquest alike. Cavalry thunder across the dunes, while kings rule with both strength and wisdom, forging order from the vastness of the land.",
+        "startIntroPart2": "Lead boldly, sovereign of Songhai! With courage and command, let your empire endure, so that its name is spoken with awe wherever the sun scorches the desert.",
 
-        "declaringWar": "You are an abomination to heaven and earth, the chief of ignorant savages! You must be destroyed!",
-		"attacked": "Fool! You have doomed your people to fire and destruction!",
-		"defeated": "We have been consumed by the fires of hatred and rage. Enjoy your victory in this world - you shall pay a heavy price in the next!",
-		"denounced": "This insult shall cost you thousandfold.",
-		"introduction": "I am Askia of the Songhai. We are a fair people - but those who cross us will find only destruction. You would do well to avoid repeating the mistakes others have made in the past.",
-		"neutralHello": "Greetings.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "Can I interest you in this deal?",
+        "declaringWar": "From the Niger to the desert sands, Songhai rises in arms — your fate is sealed.",
+		"attacked": "You strike at Gao and the lands of Songhai? Our cavalry will thunder across your borders.",
+		"defeated": "You may bring us low today, but the strength of Songhai will return with the river’s flood.",
+		"introduction": "I am the voice of Songhai, masters of the Niger and lords of the desert roads. Speak your intent.",
+        
+		"neutralHello": "Songhai greets you with calm dignity. Let us see if this meeting brings profit or peril.",
+		"hateHello": "Your presence is an insult, and your words are hollow. Songhai does not forget such affronts.",
+        
+		"tradeRequest": "What will you place upon the scales in return?",
+        
 		"outerColor": [214, 145, 19],
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive [+200]% Gold from Barbarian encampments and pillaging Cities", "[+100]% Strength <when defending> <for [Embarked] units>",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+100]% Strength <when defending> <for [Embarked] units>",
 			"[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
@@ -674,17 +704,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Genghis Khan",
 
-        "startIntroPart1": "O great Temuujin, immortal leader of the mighty Mongol Empire! Your name alone was enough to make cities crumble, and the sound of the mighty Mongol cavalry to make your enemies flee! O Great Khan! Once Northern Asia united into a mighty people, producing one of the greatest armies the world has ever known, your skillful mounted archers conquered in only a few years, most of China, Eastern Asia, and even reached the gates of Europe at the West. With cunning diplomacy and brilliant warfare, you swept your enemies one after another, creating the greatest empire ever seen, reducing Roman or Greek conquests to minor achievements.",
-        "startIntroPart2": "Divine Temuujin, battles and conquests run through the veins of the Mongols. Are you ready to shatter the will of your enemies? Will your cavalry ride in the steppes once again and strike as lightning and thunder? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Great Khan of Mongolia, rider of the endless steppe and breaker of empires! Your horsemen sweep across the plains like the wind, striking fear into kingdoms from sunrise to sunset. In the campfires of your people burns a spirit of unity and conquest, binding tribes into a single unstoppable force. Where others build walls, your riders find paths; where others falter, your banners rise.",
+        "startIntroPart2": "Stand proud, ruler of the steppe! With speed, discipline, and vision, let your empire thunder across the world, leaving behind a legacy carved in the memory of nations.",
 
-        "declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
-		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
-		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
-		"denounced": "Your courage must be commended.",
-		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
-		"neutralHello": "Hello.",
-		"hateHello": "So what now?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+        "declaringWar": "The riders of the steppe are unleashed — Mongolia declares war upon you.",
+		"attacked": "You strike at the horse lords? Our arrows will darken the sky, and your walls will fall.",
+		"defeated": "You may scatter our riders, but the name of Mongolia will thunder across the plains forever.",
+		"introduction": "I am the voice of Mongolia, born of the endless steppe and forged by conquest. Speak swiftly.",
+        
+		"neutralHello": "Mongolia greets you. May this meeting bring strength, not weakness.",
+		"hateHello": "Your presence offends us. We suffer no cowards nor liars in our camp.",
+        
+		"tradeRequest": "What will you offer in fair exchange?",
+        
 		"outerColor": [81,0,9],
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
@@ -704,17 +736,18 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Montezuma I",
 
-        "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
-        "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Mighty ruler of the Aztecs, keeper of the sun and master of the great city of Tenochtitlan! Your people raise pyramids that pierce the sky, and warriors march with jaguar strength and eagle vision. The blood of sacrifice binds heaven and earth, ensuring the sun’s eternal rise. Farmers cultivate chinampas upon the waters, while artisans craft treasures to honor gods and empire alike.",
+        "startIntroPart2": "Rise now, sovereign of the Aztecs! Through faith, valor, and dominion, let your empire flourish, feared by your enemies and exalted by your gods, until its name echoes through the ages.",
 
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
-		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+        "declaringWar": "The gods demand sacrifice — and your warriors shall provide it.",
+		"attacked": "You trespass upon the realm of the sun? Our jaguars and eagles will tear you down.",
+		"defeated": "You may strike us low, but the blood of the Aztecs will nourish the rise of our people again.",
+		"introduction": "I am the voice of the Aztecs, builders of temples and servants of the sun. State your purpose.",
 
-		"neutralHello": "Welcome, friend.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Accept this agreement or suffer the consequences.",
+		"neutralHello": "The sun shines upon this meeting. Let us see if it leads to peace or struggle.",
+		"hateHello": "Your presence dishonors our city. Leave, before you are offered to the gods.",
+        
+		"tradeRequest": "What will you bring to the altar of exchange?",
 
         "outerColor": [139,32,23],
         "innerColor": [134,238,214],
@@ -738,17 +771,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Pachacuti",
 
-        "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
-        "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Sapa Inca, child of the sun and lord of the high Andes! Your people carve fields into mountainsides, turning stone and sky into fertile lands. Roads and bridges bind valleys and peaks, carrying armies, traders, and messengers across the spine of the world. Golden temples shine in Cuzco, while warriors stand watch from fortresses perched above the clouds.",
+        "startIntroPart2": "Lead with strength and wisdom, ruler of the Inca! With ingenuity and resolve, let your empire endure in harmony with the mountains, leaving a legacy as eternal as the peaks themselves.",
 
-        "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
-		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
-		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
+        "declaringWar": "From the heights of the Andes, the Inca descend in force — your cities will not stand.",
+		"attacked": "You strike at our valleys and mountains? Our warriors will drive you back into the lowlands.",
+		"defeated": "You may topple us today, but the mountains remember the Inca, and we shall endure.",
+		"introduction": "I am the voice of the Inca, lords of the Andes and masters of the terraces. State your intentions.",
 
-		"neutralHello": "How are you doing?",
-		"hateHello": "What do you want now?",
-		"tradeRequest": "The Incan people offer this fair trade.",
+		"neutralHello": "The mountains echo with our greeting. May this meeting bring peace between us.",
+		"hateHello": "You intrude upon our empire with deceit. Leave, or the highlands will rise against you.",
+        
+		"tradeRequest": "What will you offer in return?",
 
         "outerColor": [255,184,33],
         "innerColor": [3,115,86],
@@ -772,17 +806,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Harald Bluetooth",
 
-        "startIntroPart1": "Skal, Harald Bluetooth Gormsson, son of King Gorm of the Old and Thyra Dannebod! After crushing the armies of Norway, you achieved great construction projects all across the land of mighty Denmark. Numerous Ring Fortresses were built under your reign to protect the people from foreign invasions, but also from local quarrels. In 983 AD, you successfully repelled several waves of German settlers trying to colonize your land, and then always kept your kingdom free from any foreign pressure.",
-        "startIntroPart2": "As a true Viking, who knows not fear, time has come to unleash mighty armies of Northsmen to bring despair upon your enemies! By the will of the Gods, it will be either a glorious triumph or a sumptuous feast in the Valhalla! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Fierce ruler of Denmark, lord of the longships and scourge of the seas! From the misty fjords sail your warriors, striking swift and fearsome upon distant shores. Your people endure wind and wave, thriving on strength, craft, and the endless spirit of adventure. Skalds sing of heroes and kings, while traders and raiders alike carve their mark upon the world.",
+        "startIntroPart2": "Stand tall, sovereign of Denmark! With axe and sail, guide your people to glory, until the name of your realm echoes across both sea and land with awe and dread.",
 
-        "declaringWar": "If I am to be honest, I tire of those pointless charades. Why don't we settle our disputes on the field of battle, like true men? Perhaps the skalds will sing of your valor... or mine!",
-		"attacked": "Ahahah! You seem to show some skills of a true Viking! Too bad that I'll probably kill you!",
-		"defeated": "Loki must have stood by you, for a common man alone could not have defeated me... Oh well! I will join the einherjar in Valhalla and feast, while you toil away here.",
-		"denounced": "I'm excited for our upcoming battle, my friend.",
-		"introduction": "Harald Bluetooth bids you welcome to his lands, a Viking unlike any the seas and lands have ever known! Hah, are you afraid?",
-		"neutralHello": "Hail to you.",
-		"hateHello": "Oh, it's you.",
-		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+        "declaringWar": "The longships set sail, and Denmark comes for you with fire and steel.",
+		"attacked": "You dare challenge the warriors of the fjords? Our axes will find their mark.",
+		"defeated": "You may break our shield wall today, but the sagas of Denmark will outlive you.",
+		"introduction": "I am the voice of Denmark, born of sea and storm. Speak, and be heard in our halls.",
+        
+		"neutralHello": "Denmark greets you with strength and courtesy. Let us see what path lies ahead.",
+		"hateHello": "Your presence dishonors this hall. We will not endure your false words for long.",
+        
+		"tradeRequest": "What will you place upon the table in return?",
 
         "outerColor": [51,25,0],
         "innerColor": [255,255,102],
@@ -806,17 +841,18 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Attila the Hun",
 
-        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
-        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Warlord of the Huns, scourge of kingdoms and master of the open steppe! Your horsemen ride with relentless fury, striking terror into empires and laying cities low in fire and thunder. Where walls rise, your rams smash them; where armies gather, your riders scatter them like leaves before the storm. The world trembles at your coming, for no boundary or border can withstand your charge.",
+        "startIntroPart2": "Rise now, ruler of the Huns! With speed, ruthlessness, and strength, let your people carve their destiny, feared and remembered as the tempest that reshaped nations.",
 
-        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
-		"defeated": "My people will mourn me not with tears, but with human blood.",
-		"denounced": "Do you know who you're dealing with?",
-		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
-		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
-		"neutralHello": "Good day to you.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+        "declaringWar": "The horsemen of the steppe ride — the Huns declare war, and your walls will fall.",
+        "attacked": "You strike at the sons of the plains? Our riders will sweep across your lands like fire.",
+		"defeated": "You may scatter our tribes today, but the memory of the Huns will haunt your descendants.",
+		"introduction": "I am the voice of the Huns, born of the steppe and hardened by conquest. Speak swiftly.",
+        
+		"neutralHello": "The campfire burns bright, stranger. Will you share words of peace or of rivalry?",
+		"hateHello": "Your face is unwelcome, and your words worthless. Leave before our riders silence you.",
+        
+		"tradeRequest": "What do you offer the Huns in return?",
 
         "outerColor": [180, 178, 164],
         "innerColor": [70, 0, 4],
@@ -835,16 +871,19 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "William of Orange",
 
-        "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
-        "startIntroPart2": "Brave Prince, your people ask for your wisdom to gain its freedom once more, and to illuminate the world with progressive and modern ideas. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Stalwart ruler of the Netherlands, master of the seas and champion of freedom! From the lowlands reclaimed from water, your people have built thriving cities, defended by dikes and enriched by trade. Merchants sail across distant oceans, bringing wealth and knowledge to your harbors, while farmers turn marsh into fertile polders that feed your nation. United by resolve and spirit, your citizens stand proud, their strength forged in the struggle for independence.",
+        "startIntroPart2": "Rise now, sovereign of the Netherlands! With courage, industry, and vision, guide your people to prosperity, until your republic shines as a beacon of liberty and enterprise to the world.",
 
-        "declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
-		"attacked": "You call yourself an exalted ruler, but I see nothing more than a smartly dressed barbarian!",
-		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
-		"introduction": "I am William of Orange, stadtholder of The Netherlands. Did you need anything? I still have a lot to do.",
-		"neutralHello": "Once again, greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "I believe I have something that may be of some importance to you.",
+        "declaringWar": "The Dutch fleet unfurls its sails — we come for you with cannon and courage.",
+		"attacked": "You strike at the lowlands? Our dikes hold back the sea, and our armies will hold back you.",
+		"defeated": "You may claim victory, but the spirit of the Netherlands will endure beyond your triumph.",
+		"introduction": "I am the voice of the Netherlands, where liberty and trade walk hand in hand. State your purpose.",
+		
+        "neutralHello": "The Dutch greet you with courtesy. May this meeting bring prosperity, not conflict.",
+		"hateHello": "Your presence fouls the air of our republic. Leave, before you bring ruin upon yourself.",
+        
+		"tradeRequest": "Let us strike a bargain worth our names.",
+        
 		"outerColor": [216, 120, 0],
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
@@ -862,24 +901,24 @@
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Gustavus Adolphus",
 
-        "startIntroPart1": "All hail Great King Gustavus Adolphus, founder of the Swedish Empire, and one of the most famous military tacticians. In the early 17th century, Sweden emerged as a great power in Europe under your reign, thanks to your wisdom, both in diplomacy and warfare. As king, you decided to reform Swedish laws to bring economic stability and prosperity to your people. Your allies, and also your enemies, called you the 'Lion of the North', witnessing your modern vision of warfare, and the prowess of your armies on the battlefield. As you triumphed in the Thirty Years' War, your name will be forever remembered as one of history's greatest generals.",
-        "startIntroPart2": "O noble King, will you lend your leadership and brilliant ideas to Sweden once again, to conceive strategies never seen before? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Mighty ruler of Sweden, guardian of the North and wielder of iron and flame! Your people endure the long winters with strength and resolve, forging kingdoms from the forests and lakes of the north. From the age of the Vikings to the march of great armies, Sweden has stood tall, both feared in war and admired in peace. Scholars and inventors bring progress, while kings and generals carve their names into history across the battlefields of Europe.",
+        "startIntroPart2": "Lead with courage, sovereign of Sweden! Through valor, wisdom, and the resilience of your people, guide your nation so that its star shines bright even in the coldest night.",
 
-        "declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry! God with us!",
-		"attacked": "Ha ha ha, captain Gars will be very glad to head out to war again.",
-		"defeated": "I am Sweden's king. You can take my lands, my people, my kingdom, but you will never reach the House of Vasa.",
-		"denounced": "You actually seem sharper than what I had originally thought.",
-		"introduction": "Stranger, welcome to the Snow King's kingdom! I am Gustavus Adolphus, member of the esteemed House of Vasa",
+        "declaringWar": "The lion of the North roars — Sweden marches to war against you.",
+		"attacked": "You raise arms against Sweden? Our steel and frost will break your advance.",
+		"defeated": "You may win this day, but Sweden’s honor and spirit will endure long after your victory fades.",
+		"introduction": "I am the voice of Sweden, forged in winter and tempered in war. Speak with purpose.",
 
-		"neutralHello": "Oh, welcome!",
-		"hateHello": "Oh, it is you.",
-		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+		"neutralHello": "Sweden greets you with respect. May this meeting lead to strength, not strife.",
+		"hateHello": "Your words reek of falsehood, and your presence dishonors us. Sweden will not forget this.",
+        
+		"tradeRequest": "What do you offer in return?",
         "outerColor": [8, 8, 166],
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
 		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
-		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
+		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
             "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
             "Södertälje","Mariestad","Östersund","Borås","Sundsvall","Vimmerby","Köping","Mora","Arboga","Växjö","Gränna",
@@ -895,17 +934,18 @@
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Maria Theresa",
 
-        "startIntroPart1": "Noble and pious Queen Maria Theresa, Holy Roman Empress and sovereign of Austria, the people revere your grace. After the death of your father King Charles VI, you inherited the throne of Austria during difficult economic and military times. But you used your wisdom and unflinching determination to fend off your foes and resolve any obstacles to stability and prosperity. With your husband Francis Stephen at your side as co-ruler, you assured your place as Empress of the Holy Roman Empire. During your reign, you reformed Austria in several domains, as you gifted it with a powerful army, a stable economic model, and an improved educational system.",
-        "startIntroPart2": "O Great Queen, proud and dignified, by the will of God and the Divine right, can you reach the height of prosperity and splendor the kingdom of Austria deserves? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Majestic ruler of Austria, guardian of empire and patron of culture! From the Alps to the Danube, your lands bind together many peoples beneath one crown. Castles and palaces rise in splendor, while music and learning flourish in your courts. Diplomats weave alliances, armies guard the frontiers, and your people prosper under unity and tradition. In war or peace, Austria has stood as the heart of Europe, its influence shaping the destiny of nations.",
+        "startIntroPart2": "Lead with wisdom, sovereign of Austria! With grace in diplomacy and strength in command, guide your realm to greatness, so that the name of your empire endures through all ages.",
 
-        "declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
-		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
-		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
-		"introduction": "The archduchess of Austria welcomes your Eminence to... Oh let's get this over with! I have a luncheon at four o'clock.",
+        "declaringWar": "The empire of Austria takes up arms — your defiance will be crushed beneath our banners.",
+		"attacked": "You dare strike at Austria? Our soldiers and allies will answer your arrogance.",
+		"defeated": "You may claim this battle, but Austria’s crown and legacy will outlast you.",
+		"introduction": "I am the voice of Austria, heart of Europe and guardian of empire. Speak, and be measured.",
 
-		"neutralHello": "Hello!",
-		"hateHello": "Oh, it's ye!",
-		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
+		"neutralHello": "Austria greets you with courtesy. May this meeting lead to harmony rather than discord.",
+		"hateHello": "Your presence insults the empire. Austria does not suffer deceit or disrespect.",
+        
+		"tradeRequest": "What will you offer in fair exchange?",
 
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
@@ -928,17 +968,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Dido",
 
-        "startIntroPart1": "Greetings to you, revered Queen Dido, ruler of the legendary kingdom of Carthage. The great poet Virgil related your great history, how your husband Acerbas was murdered by your own brother, King Pygmalion of Tyre, to steal the treasures of your family that were rightfully yours. But you endured his pressure until you and your compatriots decided to flee and sail for new lands. The gods led you to the shores of North Africa, and with cunning diplomacy, you expanded the territory of your new home, and laid the basis for the future kingdom of Carthage.",
-        "startIntroPart2": "Clever and proud Dido, the storm is coming and your people look for a shelter under your wise and powerful protection. Can you create a new and radiant Carthage able to cleave the darkness? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Noble ruler of Carthage, mistress of the western seas and rival of empires! Your harbors teem with merchants, your ships ride the waves to distant lands, and your wealth flows from trade that binds together three continents. In the shadow of mighty walls, warriors and statesmen uphold your power, while explorers carry your name beyond the horizon. Many have sought to rival your dominion, yet your people endure, steadfast as the stones of your great city.",
+        "startIntroPart2": "Guide wisely, sovereign of Carthage! With courage upon the sea and ambition upon the land, let your empire flourish until your name is honored across the waters of the world.",
 
-        "declaringWar": "Tell me, do you all know how numerous my armies, elephants and the gdadons are? No? Today, you shall find out!",
-		"attacked": "Fate is against you. You earned the animosity of Carthage in your exploration. Your days are numbered.",
-		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
-		"denounced": "You aren't meeting my expectations. You can do so much better.",
-		"introduction": "The Phoenicians welcome you to this most pleasant kingdom. I am Dido, the queen of Carthage and all that belongs to it.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What is it now?",
-		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
+        "declaringWar": "The harbors of Carthage send forth their fleets — your shores will burn beneath our sails.",
+		"attacked": "You strike at Carthage? Our walls and our ships will outlast your ambition.",
+		"defeated": "This day is yours, but the name of Carthage will endure beyond your fleeting triumph.",
+		"introduction": "I am the voice of Carthage, mistress of trade and rival of empires. Speak with care.",
+        
+		"neutralHello": "Carthage greets you across land and sea. Let us see whether profit or rivalry guides us.",
+		"hateHello": "Your presence brings only enmity. Carthage has no welcome for you.",
+        
+		"tradeRequest": "What will you place in exchange?",
+        
 		"outerColor": [205, 205, 205],
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
@@ -958,15 +1000,19 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Theodora",
 
-        "startIntroPart1": "Magnificent Empress Theodora, beloved of Byzantium and of Rome, your people salute you! With your beauty and intelligence, you rose up from actress and courtesan to the rank of the most powerful woman in the Roman Empire, as wife of Justinian I. In the late 520's AD, you helped your husband engage in spiritual and legal reforms, promugalting numerous laws to improve women's status and treatment in the empire. You also made of Constantinople the jewel of the Eastern Roman Empire with the restoration and construction of many aqueducts, bridges, and churches, its beauty culminating with the creation of the Hagia Sophia, one of the most splendid pieces of architecture in the world.",
-        "startIntroPart2": "Beautiful Empress,the Byzantine Empire's magnificence is intact in all memories, and ready to reborn as the new jewel of humankind. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Emperor of Byzantium, heir of Rome and guardian of the Christian East! Your capital gleams where continents meet, its mighty walls and golden domes defying both time and siege. From the wisdom of Justinian to the valor of your warriors, your empire preserves the legacy of Rome while shaping its own destiny. Faith binds your people, trade enriches your harbors, and your armies stand ready to defend the crossroads of the world.",
+        "startIntroPart2": "Lead with vision, ruler of Byzantium! Through faith, commerce, and steel, let your empire endure the ages, a shining beacon between East and West.",
 
-        "declaringWar": "It is always a shame to destroy a thing of beauty. Happily, you are not one.",
-		"attacked": "Now darling, tantrums are most unbecoming. I shall have to teach you a lesson.",
-		"defeated": "Like a child playing with toys you are. My people will never love you, nor suffer this indignation gracefully.",
-		"introduction": "My, isn't this a pleasant surprise - what may I call you, oh mysterious stranger? I am Theodora, beloved of Byzantium.",
-		"neutralHello": "Hello again.",
-		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions. Show me.",
+        "declaringWar": "Byzantium takes up the sword of empire — your defiance ends here.",
+		"attacked": "You strike at the Queen of Cities? Our walls and our faith will not yield.",
+		"defeated": "The city may fall, but the spirit of Byzantium will shine beyond your hollow victory.",
+		"introduction": "I am the voice of Byzantium, heir of Rome and guardian of the Christian East. Speak your intent.",
+        
+		"neutralHello": "Byzantium greets you in dignity. May our words build peace, not strife.",
+        "hateHello": "Your words are venom, and your presence dishonors this empire. Leave us.",
+        
+		"tradeRequest": "What do you offer in return?",
+        
 		"outerColor": [114, 162, 233],
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
@@ -987,19 +1033,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Boudicca",
 
-        "startIntroPart1": "May glory and honor always be upon you, Warrior Queen! In a time dominated by men, you successfully claimed the throne and the power, but also valiantly defied the mighty Roman Empire. Punished and humiliated by the hand of the Roman bloody invaders, you united your people and led a terrible revolt, to seek revenge. Many legions fell under your fierce attacks and you burned the city of London with your anger. While the Romans still kept ownership of your land after your final defeat, your actions nonetheless showed Rome that this land could never be fully conquered, making Nero himself consider to withdraw all troops and leaving Britain forever.",
-        "startIntroPart2": "O raging lioness, will you lead the Celts again under the glory of your name, to spread the fires of liberty, and achieve a final victory? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Chieftain of the Celts, keeper of the sacred groves and guardian of tribal pride! Your people thrive in misty highlands and forested hills, guided by druids who guard the mysteries of earth and sky. Warriors march with painted faces and fearless hearts, while bards preserve the songs of ancestors in firelit halls. Bound by kinship and tradition, your tribes stand strong against any who would seek to break their spirit.",
+        "startIntroPart2": "Rise, ruler of the Celts! Through faith, valor, and unity, lead your people to greatness, until their voice echoes across valleys, mountains, and ages.",
 
-        "declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your balls!",
-		"defeated": "Vile ruler, know you have won this war in name alone. Your cities lie buried and your troops defeated. I have my own victory.",
-		"denounced": "Don't forget who you're dealing with. Arrogant moves can get you in danger.",
-		"introduction": "I am Boudicca, Queen of the Celts. Let no-one underestimate me!",
-		"tradeRequest": "Let us join our forces together and reap the rewards.",
+        "declaringWar": "The druids have spoken — the Celts march to war, and your lands will know our fury.",
+		"attacked": "You trespass upon our sacred groves? Our warriors will strike you down among the stones.",
+		"defeated": "You may scatter our tribes, but the songs of the Celts will outlive your conquest.",
+		"introduction": "I speak for the Celts, children of the forest and keepers of the old ways. Tell us why you have come.",
+        
+        "neutralHello": "The fire in the hall burns bright — you are welcome to sit and speak.",
+        "hateHello": "Your words are hollow, and your presence dishonors us. Leave before we raise our spears.",
+        
+		"tradeRequest": "What do you offer in return?",
 
-		"neutralHello": "God has given good to you.",
-
-		"hateHello": "Well?",
         "outerColor": [12,75,25],
         "innerColor": [157,172,255],
 
@@ -1011,7 +1057,6 @@
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
 			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
-		// Llanfairpwllgwyngyll should actually be Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]
     },
 	{
@@ -1022,19 +1067,18 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Haile Selassie",
 
-        "startIntroPart1": "May God bless you, wise and righteous Emperor of Ethiopia, Haile Selassie. As one of Ethiopia's greatest rulers and a spiritual leader of the Rastafarian movement, your good influence on diplomacy and political cooperation are praised throughout the world. You created Ethiopia's first written constitution, and favorized democracy for years to come, your great wisdom making Ethiopia enter as a charter member in the United Nations. Always aiming to reform and modernize your nation, you changed Ethiopian destiny for the best.",
-        "startIntroPart2": "Revered King, your knowledge and intelligence are required once again to protect your people from many threats in the world. Will you secure peace and stability, with benevolence and authority, in the radiance of the Kebra Nagast? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Lion of Ethiopia, guardian of the highlands and defender of the faithful! Your realm endures upon lofty mountains, where ancient churches are carved into living stone and kingdoms thrive in strength and devotion. Through ages of strife, your people have stood unbroken, their courage forged in faith and their resilience shaped by the land. Traders cross deserts and valleys to reach your markets, while warriors shield your sovereignty from every foe.",
+        "startIntroPart2": "Rise, sovereign of Ethiopia! With faith, wisdom, and endurance, guide your people toward greatness, that your nation may shine as an eternal beacon upon the roof of Africa.",
 
-        "declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
-		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
-		"defeated": "God and history will remember your actions this day. I hope you are ready for your impending judgment.",
-		"denounced": "What a waste of time.",
-		"introduction": "A thousand welcomes to our fair nation. I am Selassie, the Ras Tafari Makonnen and Emperor of Ethiopia, your humble servant.",
-		"tradeRequest": "I request that you consider this offer between our two peoples. I believe it will do us both good.",
-
-		"neutralHello": "Welcome.",
-
-		"hateHello": "What do you want?",
+        "declaringWar": "The Lion of the Highlands roars — Ethiopia marches to war against you.",
+		"attacked": "You strike at the mountains of Ethiopia? Our warriors and our faith will break your assault.",
+		"defeated": "You may claim this day, but Ethiopia’s faith and people endure beyond your victory.",
+		"introduction": "I am the voice of Ethiopia, guardians of the highlands and keepers of the ancient faith. Speak plainly.",
+        
+        "neutralHello": "Ethiopia greets you in dignity. May this meeting bring peace, not strife.",
+        "hateHello": "Your presence dishonors our land. Ethiopia does not welcome you.",
+        
+		"tradeRequest": "What will you place upon the scales in return?",
 
         "outerColor": [18, 66, 22],
         "innerColor": [255, 56, 56],
@@ -1056,23 +1100,25 @@
 		"preferredVictoryType": "Scientific",
 		"personality": "Pacal",
 
-        "startIntroPart1": "Kneel before King Pacal the Great, son of the gods and protector of the Palenque domain! After your kingdom has been harassed for years by neighboring rivals, you struck back at the enemies of your people, defeating each of them and sacrificing their leaders as a retribution to the insults made to your ancestors. Your wisdom and hard will not only restored the glory of Palenque, but turned it into a magnificient city, as your people built the greatest monuments and architecture the world has ever known.",
-        "startIntroPart2": "Absolute King, your people need you to save the great Mayan culture and knowledge. Will you be able to read the movement of the stars, and find in the heavens the power to repel any foes? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "Lord of the Maya, keeper of the calendar and builder of temples that touch the sky! Your people chart the heavens with precision, their knowledge of time guiding harvests, rituals, and destiny itself. Great cities rise from the jungle, adorned with pyramids and observatories, while farmers cultivate maize that sustains your civilization. Warriors defend your lands with valor, and priests uphold the balance between gods and men.",
+        "startIntroPart2": "Lead with wisdom, ruler of the Maya! With faith, science, and resilience, let your people flourish, leaving a legacy as enduring as the stones of your sacred temples.",
 
-        "declaringWar": "A sacrifice unlike all others must be made!",
-		"attacked": "Muahahahahahaha!",
-		"defeated": "Today comes a great searing pain. With you comes the path to the black storm.",
-		"introduction": "Greetings, wayward one. I am known as Pacal.",
-		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+        "declaringWar": "The calendar marks this day for war — the Maya rise against you.",
+		"attacked": "You dare strike the people of the pyramids? Our warriors will answer beneath the gaze of the gods.",
+		"defeated": "You may claim victory, but the wisdom of the Maya will endure beyond your conquest.",
+		"introduction": "I am the voice of the Maya, keepers of time and builders of temples. Speak your purpose here.",
+        
+        "neutralHello": "The stars align for this meeting. Let us see if peace or rivalry follows.",
+        "hateHello": "our words dishonor us. The Maya will not forget this insult.",
+        
+		"tradeRequest": "What will you bring to the exchange?",
 
-		"neutralHello": "A fine day, it helps you.",
 		"outerColor": [198, 141, 99],
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
- 		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
@@ -1081,214 +1127,161 @@
     },
 
 
-	// City-States sorted by cityStateType, name
 	{
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
+		"declaringWar": "Brussels takes up arms — our walls and allies will rise against you.",
+		"attacked": "You dare assail Brussels? Our defenders will fight for every street and stone.",
+		"defeated": "Brussels has fallen, yet its spirit of resilience will not be erased by your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
+		"innerColor": [153,255,51],
 		"cities": ["Brussels"]
-	},
-	{
-		"name": "Bucharest",
-		"adjective": ["Bucuresti"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Bucharest"]
 	},
 	{
 		"name": "Florence",
 		"adjective": ["Florentine"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "And so the flower of Florence falls to barbaric hands...",
+		"declaringWar": "Florence will not bow — our militia and allies will answer your challenge.",
+		"attacked": "You strike at the city of art and craft? Our walls and citizens will resist you fiercely.",
+		"defeated": "Florence is taken, yet its spirit of beauty and independence will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
+		"innerColor": [62,197,252],
 		"cities": ["Florence"]
 	},
 	{
-		"name": "Kabul",
-		"adjective": ["Kabuli"],
+		"name": "Hanoi",
+		"adjective": ["Hanoi"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
+		"declaringWar": "Hanoi rises to defend its honor — you will find no easy victory here.",
+		"attacked": "You dare assault Hanoi? Our warriors will fight with the strength of the mountains and rivers.",
+		"defeated": "Hanoi has fallen, yet its spirit of resistance will live far beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Kabul"]
+        "innerColor": [51,51,255],
+		"cities": ["Hanoi"]
 	},
 	{
-		"name": "Kathmandu",
-		"adjective": ["Kathmanduites"],
-		"cityStateType": "Cultured", // Changed from Cultured to Religious in BNW
+		"name": "Kabul",
+		"adjective": ["Kabul"],
+		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
+		"declaringWar": "Kabul stands defiant — your aggression will be met with steel and resolve.",
+		"attacked": "You dare assail Kabul? Our fighters will defend every hill and street against you.",
+		"defeated": "Kabul may fall today, but its spirit of resistance will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [186, 18, 202],
-		"cities": ["Kathmandu"]
+		"innerColor": [168,38,102],
+		"cities": ["Kabul"]
 	},
 	{
 		"name": "Kuala Lumpur",
 		"adjective": ["KLite"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"declaringWar": "Kuala Lumpur will not yield — we rise to defend our city with all our strength.",
+		"attacked": "You bring war to Kuala Lumpur? Our defenders will stand firm against your assault.",
+		"defeated": "Kuala Lumpur has fallen, yet its spirit and people will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [222, 237, 59],
+		"innerColor": [0,102,102],
 		"cities": ["Kuala Lumpur"]
+	},
+	{
+		"name": "Lhasa",
+		"adjective": ["tibetano"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Lhasa takes up arms — you will find no weakness in our mountain stronghold.",
+		"attacked": "You dare profane Lhasa with war? Our people will defend their sacred city with devotion.",
+		"defeated": "Lhasa has fallen, but the spirit of faith and resilience will outlast your conquest.",
+        
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Lhasa"]
 	},
 	{
 		"name": "Milan",
 		"adjective": ["Milanese"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
+		"declaringWar": "Milan stands defiant — we will not bow to your threats of war.",
+		"attacked": "You assail Milan? Our soldiers and citizens will fight for every stone of our city.",
+		"defeated": "Milan has fallen, yet its pride and culture will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
+		"innerColor": [185,132,66],
 		"cities": ["Milan"]
 	},
 	{
-		"name": "Monaco",
-		"adjective": ["Monegasque"],
+		"name": "Quebec City",
+		"adjective": ["Québécois"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
+		"declaringWar": "Quebec City raises its banners — you will find no easy victory here.",
+		"attacked": "You dare strike at Quebec City? Our defenders will meet you with courage and resolve.",
+		"defeated": "Quebec City may fall, but its spirit and people will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Monaco"]
-	},
-	{
-		"name": "Prague",
-		"adjective": ["Praguer", "Pragueite"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Prague"]
-	},
-	{
-		"name": "Yerevan",
-		"adjective": ["Yerevantsi"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225, 194, 129],
-		"cities": ["Yerevan"]
+		"innerColor": [51,102,0],
+		"cities": ["Quebec City"]
 	},
 
 	{
 		"name": "Cape Town",
-		"adjective": ["Capetonian"],
+		"adjective": ["Cape Town"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"declaringWar": "Cape Town stands ready — your aggression will be met with steel and resolve.",
+		"attacked": "You bring war to Cape Town? Our people will fight fiercely to defend their home.",
+		"defeated": "Cape Town has fallen, but its pride and spirit will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
+		"innerColor": [255,153,153],
 		"cities": ["Cape Town"]
 	},
 	{
-		"name": "Helsinki", // In GK, Helsinki becomes a Swedish city.
-		"adjective": ["Helsinkian"],
+		"name": "Helsinki",
+		"adjective": ["Helsinki"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"declaringWar": "Helsinki stands ready — our resolve is stronger than the northern frost.",
+		"attacked": "You strike at Helsinki? Our people will fight fiercely for every street and shore.",
+		"defeated": "Helsinki has fallen, yet the spirit of our city will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
-		"cities": ["Helsinki"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"cities": ["Helsinki"]
 	},
 	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"declaringWar": "Manila takes up arms — our shores and streets will not fall easily to you.",
+		"attacked": "You bring war to Manila? Our people will resist with the strength of the islands.",
+		"defeated": "Manila has fallen, but its spirit will rise again long after your conquest fades.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
+		"innerColor": [96,96,96],
 		"cities": ["Manila"]
 	},
 	{
-		"name": "Mogadishu", // Introduced in BNW
-		"adjective": ["Maqdishawi"],
+		"name": "Mogadishu",
+		"adjective": ["Mogadishu"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"declaringWar": "Mogadishu will not bow — our warriors and sailors rise to defend our city.",
+		"attacked": "You dare assault Mogadishu? From coast to market, we will resist you fiercely.",
+		"defeated": "Mogadishu has fallen, yet its spirit of trade and resilience will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
-		"cities": ["Mogadishu"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
-	},
-	{
-		"name": "Mombasa",
-		"adjective": ["Mombasaan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
-		"cities": ["Mombasa"]
-	},
-	{
-		"name": "Quebec City",
-		"adjective": ["Québécois"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Quebec City"]
-	},
-	{
-		"name": "Ragusa",
-		"adjective": ["Ragusan"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0, 163, 181],
-		"cities": ["Ragusa"]
+		"innerColor": [224,224,224],
+		"cities": ["Mogadishu"]
 	},
 	{
 		"name": "Rio de Janeiro",
@@ -1296,51 +1289,53 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
-		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
-		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"declaringWar": "Rio de Janeiro rises in defiance — our city will not surrender without a fight.",
+		"attacked": "You bring war to Rio? Our people will defend every hill and shore with determination.",
+		"defeated": "Rio de Janeiro has fallen, but its spirit and culture will endure long beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
 		"cities": ["Rio de Janeiro"]
 	},
 	{
 		"name": "Sydney",
-		"adjective": ["Sydneysider"],
+		"adjective": ["Sydney"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"declaringWar": "Sydney will not yield — our banners rise to meet your aggression.",
+		"attacked": "You bring war to our shores? Sydney’s defenders will fight with courage on land and sea.",
+		"defeated": "Sydney has fallen, but the spirit of our harbor city will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
+		"innerColor": [255,204,204],
 		"cities": ["Sydney"]
 	},
 	{
-		"name": "Ur", // Introduced in BNW
-		"adjective": ["Urian"],
+		"name": "Ur",
+		"adjective": ["Ur"],
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
+		"declaringWar": "Ur shall not be your prize — we rise to defend our ancient city with honor.",
+		"attacked": "You bring violence to Ur? Our people will resist within walls older than your armies.",
+		"defeated": "Ur has fallen, but the memory of its ziggurats and people will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [167, 16, 216],
-		"cities": ["Ur"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"innerColor": [255,69,0],
+		"cities": ["Ur"]
 	},
 	{
-		"name": "Vancouver", // Introduced in BNW
+		"name": "Vancouver",
 		"adjective": ["Vancouverite"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"declaringWar": "Vancouver stands defiant — our banners rise against your aggression.",
+		"attacked": "You strike at Vancouver? Our people will defend every harbor and mountain pass.",
+		"defeated": "Vancouver has fallen, yet its spirit of resilience will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
-		"cities": ["Vancouver"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"innerColor": [0,255,128],
+		"cities": ["Vancouver"]
 	},
 	{
 		"name": "Venice",
@@ -1348,9 +1343,10 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
-		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "A wrong calculation, on my part.",
+		"declaringWar": "Venice will not be your prey — our fleets and allies rise to defend the lagoon.",
+		"attacked": "You assail the city of canals and merchants? We will fight for every bridge and harbor.",
+		"defeated": "Venice may fall today, but its legacy of trade and power will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,204,255],
 		"cities": ["Venice"]
@@ -1358,160 +1354,121 @@
 
 	{
 		"name": "Antwerp",
-		"adjective": ["Antwerpenaar", "Antwerpian"],
+		"adjective": ["Antwerp"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"declaringWar": "Antwerp will not surrender — our walls and our people stand ready to resist you.",
+		"attacked": "You dare strike Antwerp? Our defenders will fight for every street and harbor.",
+		"defeated": "Antwerp has fallen, but its pride and spirit of trade will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [193, 84, 255],
+		"innerColor": [194,97,255],
 		"cities": ["Antwerp"]
-	},
-	{
-		"name": "Cahokia",
-		"adjective": ["Cahokian"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Cahokia"]
-	},
-	{
-		"name": "Colombo",
-		"adjective": ["Colomboan"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Colombo"]
 	},
 	{
 		"name": "Genoa",
 		"adjective": ["Genoese"],
-		"cityStateType": "Mercantile", // Changed from Maritime to Mercantile in GK
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"declaringWar": "Genoa raises its banners — our ships and soldiers will resist your assault.",
+		"attacked": "You strike at Genoa? Our people will fight for every quay and street of our city.",
+		"defeated": "Genoa may fall, but its spirit of trade and seafaring will outlive your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [0, 163, 181],
+		"innerColor": [45,255,86],
 		"cities": ["Genoa"]
 	},
 	{
-		"name": "Hong Kong",
-		"adjective": ["Hongkonger", "Hongkongese"],
+		"name": "Kathmandu",
+		"adjective": ["Kathmandu"],
 		"cityStateType": "Mercantile",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"declaringWar": "Kathmandu will not bow — our mountain stronghold rises against you.",
+		"attacked": "You dare assail Kathmandu? Our people will defend every valley and peak.",
+		"defeated": "Kathmandu may fall today, but the spirit of the Himalayas endures beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [52, 97, 242],
-		"cities": ["Hong Kong"]
+		"innerColor": [151,125,0],
+		"cities": ["Kathmandu"]
 	},
 	{
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
 		"cityStateType": "Mercantile",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
+		"declaringWar": "Singapore stands firm — our harbor and people will resist your aggression.",
+		"attacked": "You dare assail Singapore? Our city will fight to defend its trade and freedom.",
+		"defeated": "Singapore has fallen, yet its spirit of resilience and commerce will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
+		"innerColor": [255,255,0],
 		"cities": ["Singapore"]
 	},
 	{
 		"name": "Tyre",
 		"adjective": ["Tyrian"],
-		"cityStateType": "Mercantile", // Changed from Militaristic to Mercantile in GK
+		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Tyre raises its banners — our ships and walls will resist you with all our strength.",
+		"attacked": "You dare strike Tyre? Our harbor and markets will be defended with fury.",
+		"defeated": "Tyre may fall today, but its legacy of seafaring and trade will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
+		"innerColor": [255,97,255],
 		"cities": ["Tyre"]
 	},
 	{
 		"name": "Zanzibar",
-		"adjective": ["Zanzibari"],
+		"adjective": ["Zanzibar"],
 		"cityStateType": "Mercantile",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"declaringWar": "Zanzibar takes up arms — the island will not yield to your ambition",
+		"attacked": "You strike at Zanzibar? Our people will defend their harbor and markets with fury.",
+		"defeated": "Zanzibar may fall, but its spirit of trade and the ocean winds will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [127, 177, 236],
+		"innerColor": [255,153,255],
 		"cities": ["Zanzibar"]
-	},
-	{
-		"name": "Zurich",
-		"adjective": ["Zuricher"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [172, 172, 172],
-		"cities": ["Zurich"]
 	},
 
 	{
 		"name": "Almaty",
-		"adjective": ["Almatinian"],
+		"adjective": ["Almaty"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
+		"declaringWar": "Almaty rises to defend its steppe — your aggression will not go unanswered.",
+		"attacked": "You dare assail Almaty? Our horsemen and hunters will strike back fiercely.",
+		"defeated": "Almaty has fallen, yet the spirit of the steppe will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
+		"innerColor": [152,0,241],
 		"cities": ["Almaty"]
 	},
 	{
 		"name": "Belgrade",
-		"adjective": ["Belgradian"],
+		"adjective": ["Belgrade"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
+		"declaringWar": "Belgrade takes up arms — our fortress city will resist your invasion.",
+		"attacked": "You strike at Belgrade? Our walls and soldiers will fight you at every turn.",
+		"defeated": "Belgrade has fallen, yet its spirit of defiance will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [121, 226, 0],
+		"innerColor": [211,180,113],
 		"cities": ["Belgrade"]
-	},
-	{
-		"name": "Budapest",
-		"adjective": ["Budapester", "Budapesti"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [217, 158, 78],
-		"cities": ["Budapest"]
 	},
 	{
 		"name": "Dublin",
 		"adjective": ["Dubliner"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
+		"declaringWar": "Dublin will not yield — our people rise to defend their city with courage.",
+		"attacked": "You strike at Dublin? Our warriors will fight fiercely for every street and shore.",
+		"defeated": "Dublin has fallen, yet its pride and spirit will endure long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
@@ -1522,153 +1479,95 @@
 		"adjective": ["Edinburghensian"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"declaringWar": "Edinburgh will not bow — our banners rise, and our blades are ready.",
+		"attacked": "You dare strike at Edinburgh? Our warriors will defend every wall and hill.",
+		"defeated": "Edinburgh has fallen, yet the spirit of the highlands will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Edinburgh"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
-		"name": "Hanoi",
-		"adjective": ["Hanoian"],
+		"name": "M'Banza-Kongo",
+		"adjective": ["M'Banza-Kongo"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
+		"declaringWar": "M’Banza-Kongo will not kneel — our people rise to defend the heart of our kingdom.",
+		"attacked": "You dare strike M’Banza-Kongo? Our warriors will fight fiercely for every street and stone.",
+		"defeated": "M’Banza-Kongo has fallen, but its spirit of strength and unity will outlive your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Hanoi"]
-	},
-	{
-		"name": "M'Banza-Kongo", // Introduced in BNW
-		"adjective": ["Angolan"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["M'Banza-Kongo"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"innerColor": [255,128,0],
+		"cities": ["M'Banza-Kongo"]
 	},
 	{
 		"name": "Sidon",
-		"adjective": ["Sidonian"],
+		"adjective": ["Sidon"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "What a fine battle! Sidon is willing to serve you!",
+		"declaringWar": "Sidon arms itself — our ships and soldiers will not let you take this city easily.",
+		"attacked": "You strike at Sidon? We will defend every harbor and market with our lives.",
+		"defeated": "Sidon has fallen, yet its legacy of seafaring and trade will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [186, 18, 202],
+		"innerColor": [250,128,114],
 		"cities": ["Sidon"]
 	},
 	{
 		"name": "Valletta",
-		"adjective": ["Beltin"],
+		"adjective": ["maltese"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
 
-		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "You will see you have just bitten off more than you can chew.",
-		"defeated": "This ship may sink, but our spirits will linger.",
+		"declaringWar": "Valletta takes up the sword — our knights will not let your armies pass unchallenged.",
+		"attacked": "You assail Valletta? Our walls and warriors will fight with the strength of faith and steel.",
+		"defeated": "Valletta has fallen, yet the courage of its knights will be remembered long after your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [222, 237, 59],
+		"innerColor": [0,102,102],
 		"cities": ["Valletta"]
 	},
 
 	{
 		"name": "Bratislava",
-		"adjective": ["Bratislavan"],
+		"adjective": ["Bratislava"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "Why have you forsaken us my lord?",
+		"declaringWar": "Bratislava will not yield — our banners rise to defend the city against you.",
+		"attacked": "You dare strike Bratislava? Our people will fight fiercely for every wall and street.",
+		"defeated": "Bratislava has fallen, yet its spirit and pride will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
+		"innerColor": [255,255,255],
 		"cities": ["Bratislava"]
 	},
 	{
-		"name": "Geneva",
-		"adjective": ["Genevan", "Genevese"],
-		"cityStateType": "Religious", // Changed from Cultured to Religious in GK
+		"name": "Cahokia",
+		"adjective": ["Cahokia"],
+		"cityStateType": "Religious",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
+		"declaringWar": "Cahokia will not bow — our warriors rise from the mounds to resist you.",
+		"attacked": "You dare assail Cahokia? Our people will defend their earthworks and fields with fury.",
+		"defeated": "Cahokia has fallen, yet the spirit of its builders and people will outlast your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [51, 97, 242],
-		"cities": ["Geneva"]
+		"innerColor": [203, 253, 232],
+		"cities": ["Cahokia"]
 	},
 	{
 		"name": "Jerusalem",
-		"adjective": ["Jerusalemite"],
+		"adjective": ["Jerusalem"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
+		"declaringWar": "Jerusalem takes up arms — the holy city will not fall quietly to your ambition.",
+		"attacked": "You dare profane Jerusalem with war? Our defenders fight with faith as their shield.",
+		"defeated": "Jerusalem may fall today, but its sacred spirit will endure beyond your conquest.",
+        
 		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
+		"innerColor": [198,255,192],
 		"cities": ["Jerusalem"]
 	},
-	{
-		"name": "La Venta",
-		"adjective": ["La Venta"],
-		"cityStateType": "Religious",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["La Venta"]
-	},
-	{
-		"name": "Lhasa",
-		"adjective": ["Tibetano"],
-		"cityStateType": "Religious", // Changed from Cultured to Religious in GK
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Lhasa"]
-	},
-	{
-		"name": "Vatican City",
-		"adjective": ["Vaticano"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [246, 253, 160],
-		"cities": ["Vatican City"]
-	},
-	{
-		"name": "Wittenberg",
-		"adjective": ["Wittenberger"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 162, 216],
-		"cities": ["Wittenberg"]
-	},
-
-
-
-	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],

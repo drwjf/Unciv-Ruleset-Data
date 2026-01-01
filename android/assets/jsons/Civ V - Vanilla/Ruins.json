@@ -8,13 +8,13 @@
     {
         "name": "squatters willing to work for you",
         "notification": "A [Worker] has joined us!",
-        "uniques": ["Free [Worker] found in the ruins", "Unavailable <on [Prince] difficulty or higher>"],
+        "uniques": ["Free [Worker] found in the ruins"],
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
     },
     {
         "name": "squatters wishing to settle under your rule",
         "notification": "A [Settler] has joined us!",
-        "uniques": ["Free [Settler] found in the ruins", "Unavailable <on [Prince] difficulty or higher>"],
+        "uniques": ["Free [Settler] found in the ruins"],
         "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
     {
@@ -25,12 +25,12 @@
     {
         "name": "survivors (adds population to a city)",
         "notification": "We have found survivors in the ruins! Population added to [cityName].",
-        "uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+        "uniques": ["[+1] population in a random city"], 
 		"color": "#81c784"
     },
     {
         "name": "a stash of gold",
-        "notification": "",  // trigger notification only
+        "notification": "",  
         "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>"],
         "color": "#ffeb7f"
     },

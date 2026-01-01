@@ -1,5 +1,4 @@
 [
-	// Base terrains
 	{
 		"name": "Ocean",
 		"type": "Water",
@@ -116,7 +115,7 @@
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"],
         "civilopediaText": [
-            {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
+            {"text": "Tiles next to Lakes count as fresh water, enabling Farms where none could be built otherwise (like Rivers/Oases)."},
             {"text": "Rivers", "link":"Terrain/River"},
             {"text": "Oasis", "link":"Terrain/Oasis"},
             {"text": "Farm", "link":"Improvement/Farm"},
@@ -154,7 +153,6 @@
 			"Never receives any resources <in [Hill] tiles>"]
 	},
 
-	// Terrain features
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
@@ -200,7 +198,7 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
-		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+		"civilopediaText": [{"text":"Camp allowed here without clearing.", "link":"Improvement/Camp"}]
 	},
 	{
 		"name": "Jungle",
@@ -235,7 +233,7 @@
 		"uniques": ["Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
+		"civilopediaText": [{"text":"Only Polders may be placed here.", "link":"Improvement/Polder"}]
 	},
 	{
 		"name": "Fallout",
@@ -243,8 +241,6 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		// For map editor only - the generator won't place it without code or enabling uniques
-		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
@@ -263,7 +259,7 @@
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"],
         "civilopediaText": [
-            {"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
+            {"text": "Tiles next to an Oasis count as fresh water, enabling Farms (like Rivers/Lakes)."},
             {"text": "Rivers", "link":"Terrain/River"},
             {"text": "Lakes", "link":"Terrain/Lakes"},
             {"text": "Farm", "link":"Improvement/Farm"},
@@ -302,25 +298,18 @@
 		"uniques": ["Rare feature"]
 	},
 
-    // Virtual River entry, used for stats, Uniques and Civilopedia
-    // Modders take heed:
-    // * This never exists on the map, it's a placeholder to allow you to mod the actual river's stats.
-    // * The name is hardcoded to apply stats and the Stats Unique when a tile has one or more edges with an actual river.
-    // * No other Unique is implemented and will work - for now.
     {
         "name": "River",
         "type": "TerrainFeature",
         "gold": 1,
-        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "movementCost": 0,
         "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
         "civilopediaText": [
-            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
-            {"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+            {"text": "Rivers lie along tile edges, not on the tiles themselves."},
+            {"text": "Tiles on both sides receive the benefit. It does not stack."},
             {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
-            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
-            // See BattleConstants.ATTACKING_ACROSS_RIVER_MALUS:
-            {"text": "When attacking across a river, the attacker gets a -20% strength malus."},
-            // Related Buildings are automatically linked
+            {"text": "Crossing a river consumes all remaining movement unless a bridge is present."},
+            {"text": "Attacking across a river imposes −20% Strength on the attacker."},
             {"text": "Lakes", "link":"Terrain/Lakes"},
             {"text": "Oasis", "link":"Terrain/Oasis"},
             {"text": "Farm", "link":"Improvement/Farm"},
@@ -332,7 +321,6 @@
         ]
     },
 
-    // Natural Wonders
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
@@ -380,7 +368,7 @@
 			"Grants [+500 Gold] to the first civilization to discover it"],
 		"weight": 2
 	},
-	{ // This will count as "Fresh water" in civ 6
+	{
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
@@ -481,46 +469,4 @@
 		"unbuildable": true,
 		"weight": 10
 	}
-	/*
-        // BNW wonders
-        {
-            "name": "King Solomon's Mines",
-            "type": "NaturalWonder",
-            "production": 6,
-            "overrideStats": true,
-            "occursOn": ["Plains","Desert"],
-            "uniques": ["Must be adjacent to [0] [Coast] tiles",
-                "Must be adjacent to [0] to [2] [Mountain] tiles"],
-            "turnsInto": "Plains",
-            "impassable": true,
-            "unbuildable": true,
-            "weight": 4
-        },
-        {// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
-            "name": "Lake Victoria",
-            "type": "NaturalWonder",
-            "food": 6,
-            "occursOn": ["Plains"],
-            "turnsInto": "Mountain",
-            "impassable": true,
-            "unbuildable": true,
-            "uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
-            "weight": 10
-        },
-        {
-            "name": "Mount Kilimanjaro",
-            "type": "NaturalWonder",
-            "food": 3,
-            "culture": 2,
-            "occursOn": ["Plains","Grassland"],
-            "turnsInto": "Mountain",
-            "impassable": true,
-            "unbuildable": true,
-            "uniques": ["Must be adjacent to [0] [Coast] tiles",
-                "Must be adjacent to [2] to [6] [Hill] tiles",
-                "Must be adjacent to [0] to [2] [Mountain] tiles",
-                "Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-            "weight": 10
-        }
-    */
 ]

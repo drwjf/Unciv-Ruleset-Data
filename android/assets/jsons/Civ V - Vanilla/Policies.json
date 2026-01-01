@@ -63,8 +63,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "[+2 Food] [in all cities]",
-                    "Get the leader title of [Lord [leaderName]]"
+                    "[+2 Food] [in all cities]"
                 ]
             }
         ]
@@ -104,7 +103,7 @@
                 "name": "Republic",
                 "uniques": [
                     "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "requires": ["Collective Rule"],
                 "row": 2,
@@ -132,10 +131,7 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": [
-                    "Free Great Person",
-                    "Get the leader title of [Consul [leaderName]]"
-                ]
+                "uniques": ["Free Great Person"]
             }
         ]
     },
@@ -150,7 +146,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+25]% Strength <vs [Barbarian] units>",
+            "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments"
         ],
@@ -206,8 +202,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-                    "Get the leader title of [[leaderName] the Great]"
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
                 ]
             }
         ]
@@ -275,8 +270,7 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies",
-                    "Get the leader title of [[leaderName] the Pious]"
+                    "[-10]% Culture cost of adopting new Policies"
                 ]
             }
         ]
@@ -344,8 +338,7 @@
                 "name": "Patronage Complete",
                 "uniques": [
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
-                    "Get the leader title of [[leaderName] the Enlightened]"
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
             }
         ]
@@ -366,7 +359,10 @@
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
-                    "[+1] Sight <for [{Military} {Water}] units>"
+                    "[+1] Sight <for [{Military} {Water}] units>",
+                    "Free [Great General] appears"
+                    
+                    
                 ],
                 "row": 1,
                 "column": 2
@@ -391,7 +387,11 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%"
+                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[+1 Science] from every [Mint]",
+                    "[+1 Science] from every [Market]",
+                    "[+1 Science] from every [Bank]",
+                    "[+1 Science] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -407,8 +407,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every specialist [in all cities]",
-                    "Get the leader title of [Doge [leaderName]]"
+                    "[+1 Gold] from every specialist [in all cities]"
                 ]
             }
         ]
@@ -473,8 +472,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-                    "[+1 Gold] from all [Science] buildings",
-                    "Get the leader title of [[leaderName] the Wise]"
+                    "[+1 Gold] from all [Science] buildings"
                 ]
             }
         ]
@@ -535,8 +533,7 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "[+100]% Yield from every [Great Improvement]",
-                    "[+50]% Golden Age length",
-                    "Get the leader title of [President [leaderName]]"
+                    "[+50]% Golden Age length"
                 ]
             }
         ]
@@ -572,7 +569,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[+100]% [Strategic] resource production"
+                    "Quantity of strategic resources produced by the empire +[100]%"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
@@ -601,8 +598,7 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "[+20]% Strength <when attacking> <for [Military] units> <for [30] turns>",
-                    "Get the leader title of [[leaderName] the Terrible]"
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [30] turns>"
                 ]
             }
         ]
@@ -651,7 +647,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-15]% maintenance cost for [all] buildings [in all cities]"
+                    "[-15]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -660,8 +656,9 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+10]% Production when constructing [All] buildings [in all cities]"
+                    "[+1 Production] [in all cities]",
+                    "[+10]% Production when constructing [All] buildings [in all cities]",
+                    "[+1 Production] from every [Quarry]"
                 ],
                 "row": 3,
                 "column": 3
@@ -669,8 +666,7 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]",
-                    "Get the leader title of [Chairman [leaderName]]"
+                    "[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]"
                 ]
             }
         ]

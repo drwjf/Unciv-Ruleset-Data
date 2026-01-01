@@ -1,5 +1,4 @@
 [
-	// Bonus resources
 	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
@@ -76,18 +75,8 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
-	/*
-	{
-		"name": "Bison",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"food": 1}
-	},
-	*/
 
-	// Strategic resources
+	
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
@@ -211,7 +200,6 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
-	// Luxury resources
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
@@ -265,7 +253,7 @@
 			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
 	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"name": "Gold Ore", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
@@ -366,7 +354,6 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},

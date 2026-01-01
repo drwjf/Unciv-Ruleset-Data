@@ -1,5 +1,5 @@
 [
-	// Bonus resources
+	
 	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
@@ -23,7 +23,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra"], 
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -47,7 +47,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], 
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
@@ -74,23 +74,13 @@
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
-	/*
-	{
-		"name": "Bison",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"production": 1}
-	},
-	*/
 
-	// Strategic resources
+	
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], 
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -208,7 +198,7 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
-	// Luxury resources
+	
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
@@ -259,7 +249,7 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
 	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"name": "Gold Ore", 
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
@@ -354,7 +344,7 @@
 		"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
+		
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
@@ -449,16 +439,6 @@
 					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
-	/*
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation"
-	},
-	*/
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",

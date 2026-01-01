@@ -8,7 +8,7 @@
 		"outerColor": [253,236,234]
 	},
 
-	// Ranged+Siege
+	
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
@@ -64,7 +64,7 @@
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"]
 	},
 
-	// Melee, Mounted+Armor
+	
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
@@ -107,14 +107,14 @@
 		"unitTypes": ["Mounted","Armored"]
 	},
 	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"name": "Besiege", 
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},
 	{
 		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		"prerequisites": ["Shock II","Drill II"], 
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted"]
 	},
@@ -156,7 +156,7 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
 	},
 
-	// Scout
+	
 	{
 		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
@@ -188,12 +188,12 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], 
 		"unitTypes": ["Scout"]
 	},
 
 
-	// Water melee
+	
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
@@ -235,7 +235,7 @@
 		"unitTypes": ["Melee Water"]
 	},
 
-	// Water Ranged
+	
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
@@ -254,7 +254,7 @@
 		"unitTypes": ["Ranged Water"]
 	},
 
-	// Submarine
+	
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
@@ -273,7 +273,7 @@
 		"unitTypes": ["Submarine"]
 	},
 
-	// Aircraft Carrier
+	
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
@@ -309,7 +309,7 @@
 		"unitTypes": ["Aircraft Carrier"]
 	},
 
-	// Mixed Water
+	
 	{
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
@@ -317,7 +317,7 @@
 		"unitTypes": ["Melee Water", "Ranged Water"]
 	},
 
-	// Bomber
+	
 	{
 		"name": "Siege I",
 		"uniques": ["[+33]% Strength <vs cities>"],
@@ -342,7 +342,7 @@
 		"unitTypes": ["Bomber"]
 	},
 
-	// Aircraft
+	
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
@@ -410,7 +410,7 @@
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
-	// Helicopter
+	
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
@@ -434,7 +434,7 @@
 		"unitTypes": ["Helicopter"]
 	},
 
-	// Mixed
+	
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
@@ -487,7 +487,7 @@
 	},
 
 
-	// Water ranged and air units
+	
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
@@ -506,33 +506,33 @@
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 
-	// Uniques that should be kept on upgrades
+	
 	{
-		"name": "Morale", // Heroic Epic
+		"name": "Morale", 
 		"uniques": ["[+15]% Strength"]
 	},
 	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"name": "Great Generals I", 
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
 	{
-		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+		"name": "Great Generals II", 
 		"uniques": ["[Great General] is earned [100]% faster"]
 	},
 	{
-		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"name": "Quick Study", 
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"name": "Haka War Dance", 
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"name": "Rejuvenation", 
 		"uniques": ["All healing effects doubled"]
 	},
 	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
+		"name": "Slinger Withdraw", 
 		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
@@ -540,16 +540,16 @@
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		"name": "Pictish Courage", 
 		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
+		"name": "Home Sweet Home", 
 		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
 	{
 		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -588,7 +588,7 @@
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
-	{	// For barbarian water units
+	{	
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
 	}

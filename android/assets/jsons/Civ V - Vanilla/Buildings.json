@@ -1,7 +1,4 @@
 [
-	// Ancient Era
-
-	// Always available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -9,8 +6,8 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"cityStrength": 2.5,
-		"cost": 0,
+		"cityStrength": 2,
+		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
 	{
@@ -21,7 +18,6 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
-	// Column 1
 	{
 		"name": "Granary",
 		"food": 2,
@@ -40,9 +36,8 @@
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
             "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "Archery",
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+		"quote": "'I saw the house of Artemis mount to the clouds; all other marvels lost their brilliancy.' - Antipater of Sidon."
 	},
-	// Column 2
 	{
 		"name": "The Great Lighthouse",
 		"cost": 185,
@@ -52,7 +47,7 @@
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
 		"requiredTech": "Sailing",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"quote": "'I, this tower on the rock in the sea, am Pharos, bearing the same name as the island and serving as a beacon for the harbour.' — Greek Anthology 9.60."
 	},
 	{
 		"name": "Stone Works",
@@ -72,7 +67,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Calendar",
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+		"quote": "'It is Stonehenge! … Yes. Older than the centuries; older than the d’Urbervilles!' — Thomas Hardy, Tess of the d’Urbervilles, Ch. 58."
 	},
 	{
 		"name": "Library",
@@ -98,7 +93,7 @@
 		"isWonder": true,
 		"requiredTech": "Writing",
 		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+		"quote": "'I have always imagined that Paradise will be a kind of library.' — Jorge Luis Borges."
 	},
 	{
 		"name": "Circus",
@@ -130,7 +125,7 @@
 	},
 	{
 		"name": "Walls",
-		"cityStrength": 4,
+		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -154,7 +149,7 @@
 		"isWonder": true,
 		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
-		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+		"quote": "'From the heights of these pyramids, forty centuries look down on us.' — Napoleon Bonaparte."
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
@@ -164,7 +159,7 @@
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+		"quote": "'They refused to abandon the work before finishing it, thinking it would be a memorial to their own glory and to their art.' — Pliny the Elder, Natural History 36."
 	},
 	{
 		"name": "Barracks",
@@ -189,13 +184,9 @@
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Bronze Working",
-		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
-		// "Requires [Honor]" in BNW
+		"quote": "'A single glimpse of the statue would make a man forget all the troubles and terrors of this mortal life.' — Dio Chrysostom, Olympic Discourse 12."
 	},
 
-	// Classical Era
-
-	// Column 3
 	{
 		"name": "Lighthouse",
 		"cost": 75,
@@ -220,7 +211,7 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Removes extra unhappiness from annexed cities",
+		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Mathematics"
 	},
@@ -231,7 +222,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+		"quote": "'The ascent to the highest story is by stairs, and at their side are water engines … continually employed in raising water from the Euphrates into the garden.' — Strabo."
 	},
 	{
 		"name": "Colosseum",
@@ -257,9 +248,8 @@
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [Walls] [in this city]"],
 		"requiredTech": "Construction",
-		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+		"quote": "'He who has not reached the Great Wall is not a true hero.' — Mao Zedong, Qing Ping Yue · Mount Liupan (1935)."
 	},
-	// Column 4
 	{
 		"name": "Temple",
 		"culture": 3,
@@ -275,7 +265,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"uniques": ["[+100]% Gold given to enemy if city is captured <in this city>"],
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"culture": 2,
 		"happiness": 2,
 		"requiredBuilding": "Monument",
@@ -310,7 +300,7 @@
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Philosophy",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+		"quote": "'Know thyself.' — Inscription at the Temple of Apollo, Delphi (the Delphic Oracle)."
 	},
 	{
 		"name": "National Epic",
@@ -350,7 +340,6 @@
 	},
 	{
 		"name": "Aqueduct",
-        "cost": 100,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
@@ -374,12 +363,9 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "Bronze Working",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+		"quote": "'To you, O Sun, the people of Dorian Rhodes raised high to heaven this Colossus… kindling the lovely light of freedom on sea and land.' —Greek Anthology 6.171 (dedicatory epigram)."
 	},
 
-	// Medieval Era
-
-	// Column 5
 	{
 		"name": "Garden",
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
@@ -391,20 +377,16 @@
 		"name": "Monastery",
 		"cost": 120,
 		"culture": 2,
-		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]",
-            "[+2 Culture] from [Incense] tiles [in this city]",
-            "Destroyed when the city is captured"],
+		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]", "Destroyed when the city is captured"],
 		"requiredNearbyImprovedResources": ["Incense", "Wine"],
 		"requiredTech": "Theology"
 	},
 	{
 		"name": "Hagia Sophia",
-        "culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		"uniques": ["[+25]% Great Person generation [in all cities]"],
 		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+		"quote": "'Yet it seems not to rest upon solid masonry, but to cover the space with its golden dome suspended from Heaven.' — Procopius, On Buildings (De Aedificiis) I.1."
 	},
 	{
 		"name": "Angkor Wat",
@@ -413,7 +395,7 @@
 		"isWonder": true,
 		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Theology",
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+		"quote": "'One of these temples — a rival to that of Solomon, and erected by some ancient Michael Angelo — might take an honourable place beside our most beautiful buildings. It is grander than anything left to us by Greece or Rome.” — Henri Mouhot, Travels in the Central Parts of Indo-China (1860)."
 	},
 	{
 		"name": "Chichen Itza",
@@ -423,7 +405,7 @@
 		"isWonder": true,
 		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Civil Service",
-		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+		"quote": "'They held Cozumel and the well at Chichen Itza in great veneration… and when they did not visit they sent offerings.' — Diego de Landa, Yucatán Before and After the Conquest."
 	},
 	{
 		"name": "National Treasury",
@@ -440,9 +422,9 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Currency",
-		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+		"quote": "'In the variety of its charms and the power of its spell, I know of no place in the world which can compare with it.' — Hiram Bingham, Lost City of the Incas."
 	},
 	{
 		"name": "Workshop",
@@ -471,14 +453,14 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Metal Casting",
-		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
-	// Column 6
 	{
 		"name": "Harbor",
 		"cost": 120,
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
@@ -523,11 +505,11 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Education",
-		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+		"quote": "'Great edifices, like great mountains, are the work of centuries.' — Victor Hugo, The Hunchback of Notre-Dame."
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 4,
+		"cityStrength": 7,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
@@ -539,7 +521,7 @@
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "India",
-		"cityStrength": 6,
+		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
 		"hurryCostModifier": 25,
@@ -575,9 +557,6 @@
 		"requiredTech": "Machinery"
 	},
 
-	// Renaissance Era
-
-	// Column 7
 	{
 		"name": "Observatory",
 		"maintenance": 0,
@@ -604,10 +583,11 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[+25]% [Culture] [in all cities]"],
 		"requiredTech": "Acoustics",
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+		"quote": "'Without having seen the Sistine Chapel, one can form no appreciable idea of what one man is capable of achieving.' — Johann Wolfgang von Goethe."
 	},
 	{
 		"name": "Bank",
+		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
@@ -631,9 +611,9 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Banking",
-		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+		"quote": "'The great courtyards in the Forbidden City… could have held 30,000 people, and the emperor’s elephants, the 3,000 royal guards, and the huge walls all increased the sense of majesty and power.' — Matteo Ricci (as quoted by Jonathan Spence)."
 	},
 	{
 		"name": "Theatre",
@@ -643,11 +623,10 @@
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
-	// Column 8
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 3,
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
@@ -670,7 +649,7 @@
 		"isWonder": true,
 		"uniques": ["Empire enters golden age"],
 		"requiredTech": "Printing Press",
-		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+		"quote": "'Not a piece of architecture, as other buildings are, but the proud passions of an emperor’s love wrought in living stones.' — Sir Edwin Arnold."
 	},
 	{
 		"name": "Porcelain Tower",
@@ -679,7 +658,7 @@
 		"isWonder": true,
 		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
 		"requiredTech": "Education",
-		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+		"quote": "'The best contrived and noblest structure of all the East.' — Louis Le Comte, describing the Porcelain Tower of Nanjing."
 	},
 	{
 		"name": "Windmill",
@@ -698,12 +677,9 @@
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"requiredTech": "Acoustics",
-        "quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+        "quote": "'From the heights of the Kremlin — yes, yes, that’s the Kremlin — I will give them the laws of justice; I will show them the meaning of true civilization.” — Leo Tolstoy, War and Peace (Napoleon’s thought)."
 	},
 
-	// Industrial Era
-
-	// Column 9
 	{
 		"name": "Museum",
 		"culture": 5,
@@ -716,12 +692,12 @@
 	},
 	{
 		"name": "The Louvre",
-		"culture": 4,
-		"greatPersonPoints": {"Great Artist": 2},
+		"culture": 1,
+		"happiness": 4,
 		"isWonder": true,
 		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
-		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+		"quote": "'The Louvre is the book in which we learn to read.' — Paul Cézanne."
 	},
 	{
 		"name": "Public School",
@@ -753,7 +729,7 @@
 		"isWonder": true,
 		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
 		"requiredTech": "Economics",
-		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+		"quote": "'How can you ever be late for anything in London? They have a huge clock right in the middle of the town.' — Jimmy Kimmel."
 	},
 	{
 		"name": "Military Academy",
@@ -770,19 +746,18 @@
 		"isWonder": true,
 		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science",
-		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+		"quote": "'Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!' — Ronald Reagan, address at the Brandenburg Gate (June 12, 1987)."
 	},
 	{
 		"name": "Arsenal",
 		"cost": 300,
-		"cityStrength": 6,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Rifling",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-	// Column 10
 	{
 		"name": "Hospital",
 		"food": 5,
@@ -793,16 +768,14 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"percentStatBonus": {"gold": 33},
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity"
 	},
 
-	// Modern Era
-
-	// Column 11
 	{
 		"name": "Broadcast Tower",
 		"culture": 3,
@@ -820,7 +793,7 @@
 		"isWonder": true,
         "uniques": ["[+1 Happiness] per [2] social policies adopted"],
 		"requiredTech": "Radio",
-		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+		"quote": "'It’s the only place in Paris where I can’t see the damned thing.' — Guy de Maupassant, speaking of the Eiffel Tower."
 	},
 	{
 		"name": "Statue of Liberty",
@@ -829,9 +802,8 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[+1 Production] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
-		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+		"quote": "'We will not forget that Liberty has here made her home; nor shall her chosen altar be neglected.' — President Grover Cleveland, Statue of Liberty dedication, Oct. 28, 1886."
 	},
-	// Column 12
 	{
 		"name": "Military Base",
 		"cityStrength": 12,
@@ -843,12 +815,12 @@
 	},
 	{
 		"name": "Cristo Redentor",
-		"culture": 4,
+		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[-10]% Culture cost of adopting new Policies"],
 		"requiredTech": "Telegraph",
-		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+		"quote": "'Cristo Redentor, braços abertos sobre a Guanabara.' — Antônio Carlos Jobim, 'Samba do Avião.'"
 	},
 	{
 		"name": "Research Lab",
@@ -860,9 +832,6 @@
 		"requiredTech": "Plastics"
 	},
 
-	// Atomic Era
-
-	// Column 13
 	{
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
@@ -888,12 +857,11 @@
 	{
 		"name": "Sydney Opera House",
 		"isWonder": true,
-        "culture": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
 		"uniques": ["Free Social Policy","Must be next to [Coast]"],
 		"requiredTech": "Mass Media",
-		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+		"quote": "'The human spirit must sometimes take wings or sails and create something that is not just utilitarian or commonplace.' — Queen Elizabeth II, opening the Sydney Opera House (1973)."
 	},
 	{
 		"name": "Manhattan Project",
@@ -909,9 +877,8 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Radar",
-		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+		"quote": "'There are known knowns… There are known unknowns… But there are also unknown unknowns — the ones we don’t know we don’t know.' — Donald Rumsfeld, Pentagon press briefing (Feb 12, 2002)."
 	},
-	// Column 14
 	{
 		"name": "Solar Plant",
 		"production": 5,
@@ -937,26 +904,18 @@
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
 			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
-		"requiredTech": "Rocketry",
-        "civilopediaText": [
-            { "text": "Once you have completed the Apollo Program, you can start constructing spaceship parts in your cities (with the relevant technologies) to win a Scientific Victory!" }
-        ]
+		"requiredTech": "Rocketry"
 	},
 
-	// Information Era
-
-	// Column 15
 	{
 		"name": "Spaceship Factory",
 		"production": 3,
-        "maintenance": 3,
 		"requiredResource": "Aluminum",
 		"cost": 360,
 		"requiredBuilding": "Factory",
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
 	},
-	// Column 16
 	{
 		"name": "United Nations",
 		"isWonder": true,
@@ -964,10 +923,8 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+		"quote": "'The United Nations was not created to take mankind to heaven, but to save humanity from hell.' — Dag Hammarskjöld."
 	},
-
-	// All Eras
 
 	{
 		"name": "Utopia Project",

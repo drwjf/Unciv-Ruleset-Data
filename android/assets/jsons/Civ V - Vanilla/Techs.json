@@ -9,7 +9,7 @@
 			{
 				"name": "Agriculture",
 				"row": 6,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "'The discovery of agriculture was the first big step toward a civilized life.' — Sir Arthur Keith, Evolution and Ethics (1947).",
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -25,25 +25,25 @@
 				"name": "Pottery",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "'For I remember stopping by the way / To watch a Potter thumping his wet Clay: / And with its all-obliterated Tongue / It murmur’d—‘Gently, Brother, gently, pray!’' — Omar Khayyam, Rubáiyát (tr. Edward FitzGerald)."
 			},
 			{
 				"name": "Animal Husbandry",
 				"row": 5,
 				"prerequisites": ["Agriculture"],
-				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+				"quote": "Where no oxen are, the crib is clean; but much increase is by the strength of the ox.” — Proverbs 14:4."
 			},
 			{
 				"name": "Archery",
 				"row": 7,
 				"prerequisites": ["Agriculture"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "'The bow too tensely strung is easily broken.' — Publilius Syrus."
 			},
 			{
 				"name": "Mining",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+				"quote": "'Surely there is a mine for silver, and a place where gold is refined.' — Book of Job 28:1."
 			}
 
 		]
@@ -59,44 +59,44 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "'A ship in harbor is safe, but that’s not what ships are built for.' — John A. Shedd."
 			},
 			{
 				"name": "Calendar",
 				"row": 2,
 				"prerequisites": ["Pottery"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"quote": "'Every time you tear a leaf off a calendar, you present a new place for new ideas and progress.' — Charles F. Kettering."
 			},
 			{
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Pottery"],
 				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "'Writing is the painting of the voice.' — Voltaire."
 			},
 			{
 				"name": "Trapping",
 				"row": 4,
 				"prerequisites": ["Animal Husbandry"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+				"quote": "'Build a better mousetrap, and the world will beat a path to your door.' — Ralph Waldo Emerson."
 			},
 			{
 				"name": "The Wheel",
 				"row": 6,
 				"prerequisites": ["Animal Husbandry"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'Everything the Power of the World does is done in a circle.' — Black Elk, Black Elk Speaks, ch. 17."
 			},
 			{
 				"name": "Masonry",
 				"row": 9,
 				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
+				"quote": "'Therefore, when we build, let us think that we build for ever… and let us think, as we lay stone on stone, that a time is to come when those stones will be held sacred because our hands have touched them.' — John Ruskin, The Seven Lamps of Architecture (1849)."
 			},
 			{
 				"name": "Bronze Working",
 				"row": 10,
 				"prerequisites": ["Mining"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "'Their armor was of bronze, and their houses of bronze, and of bronze were their implements: there was no black iron.' — Hesiod, Works and Days (Ages of Man)."
 			}
 		]
 	},
@@ -113,38 +113,38 @@
 				"row": 1,
 				"prerequisites": ["Sailing"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "'Truth is sought for its own sake… Finding the truth is difficult, and the road to it is rough.' — Ibn al-Haytham (Alhazen), from his writings on optics."
 			},
 			{
 				"name": "Philosophy",
 				"row": 3,
 				"prerequisites": ["Writing"],
 				"uniques": ["Enables Research agreements"],
-				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+				"quote": "'The unexamined life is not worth living.' — Socrates (Plato, Apology 38a)."
 			},
 			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"quote": "'What a horse does under compulsion he does blindly; his performance is no more beautiful than that of a dancer taught by whip and goad.' — Xenophon, On Horsemanship."
 			},
 			{
 				"name": "Mathematics",
 				"row": 7,
 				"prerequisites": ["The Wheel", "Archery"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"quote": "'Pure mathematics is, in its way, the poetry of logical ideas.' — Albert Einstein."
 			},
 			{
 				"name": "Construction",
 				"row": 9,
 				"prerequisites": ["Masonry"],
-				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+				"quote": "'Architecture starts when you carefully put two bricks together. There it begins.' — Ludwig Mies van der Rohe."
 			},
 			{
 				"name": "Iron Working",
 				"row": 10,
 				"prerequisites": ["Bronze Working"],
-				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+				"quote": "'As iron sharpens iron, so one person sharpens another.' — Proverbs 27:17."
 			}
 		]
 	},
@@ -159,33 +159,33 @@
 				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Calendar", "Philosophy"],
-				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+				"quote": "'For understanding is the reward of faith. Therefore do not seek to understand in order to believe, but believe that you may understand.' — St. Augustine, Tractates on the Gospel of John 29.6."
 			},
 			{
 				"name": "Civil Service",
 				"row": 4,
 				"prerequisites": ["Philosophy","Trapping"],
-				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+				"quote": "'Ask not what your country can do for you—ask what you can do for your country.' — John F. Kennedy, Inaugural Address (Jan 20, 1961)."
 			},
 			{
 				"name": "Currency",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
-				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+				"quote": "'They were the first of men, so far as we know, who struck and used coin of gold or silver.' — Herodotus, Histories 1.94."
 			},
 			{
 				"name": "Engineering",
 				"row": 8,
 				"prerequisites": ["Mathematics","Construction"],
 				"uniques": ["Roads connect tiles across rivers"],
-				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+				"quote": "'Scientists discover the world that exists; engineers create the world that never was.' — Theodore von Kármán."
 			},
 			{
 				"name": "Metal Casting",
 				"row": 10,
 				"prerequisites": ["Construction","Iron Working"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"quote": "'I sent for all my pewter platters, porringers, and dishes… This expedient succeeded… while I, now here, now there, gave orders, helped with my own hands.' — Benvenuto Cellini, describing the bronze casting of Perseus."
 			}
 		]
 	},
@@ -201,40 +201,40 @@
 				"cost": 375,
 				"row": 1,
 				"prerequisites": ["Optics"],
-				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+				"quote": "'At night they steer by the stars, and in the day-time by the sun. In dark weather they look at the south-pointing needle.' — Zhu Yu, Pingzhou Table Talks (1119)."
 			},
 			{
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
 				"uniques": ["Enables conversion of city production to [Science]"],
-				"quote": "'Education is the best provision for old age.' - Aristotle"
+				"quote": "'Education, then, beyond all other devices of human origin, is the great equalizer of the conditions of men—the balance-wheel of the social machinery.' — Horace Mann."
 			},
 			{
 				"name": "Chivalry",
 				"row": 5,
 				"prerequisites": ["Civil Service","Currency","Horseback Riding"],
                 "uniques": ["Enables Defensive Pacts"],
-				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+				"quote": "'To give mercy unto him that asketh mercy.' — Sir Thomas Malory, Le Morte d’Arthur (Pentecostal Oath)."
 			},
 			{
 				"name": "Machinery",
 				"row": 8,
 				"prerequisites": ["Engineering"],
 				"uniques": ["Improves movement speed on roads"],
-				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+				"quote": "'One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.' — Elbert Hubbard."
 			},
 			{
 				"name": "Physics",
 				"row": 9,
 				"prerequisites": ["Engineering","Metal Casting"],
-				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+				"quote": "'What I cannot create, I do not understand.' — Richard Feynman (from his Caltech blackboard, 1988)."
 			},
 			{
 				"name": "Steel",
 				"row": 10,
 				"prerequisites": ["Metal Casting"],
-				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+				"quote": "'The finest steel has to go through the hottest fire.' — Richard M. Nixon."
 			}
 		]
 	},
@@ -250,31 +250,31 @@
 				"row": 2,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Compass","Education"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+				"quote": "'For my part I know nothing with any certainty, but the sight of the stars makes me dream.' — Vincent van Gogh (letter to Theo, 1888)."
 			},
 			{
 				"name": "Acoustics",
 				"row": 4,
 				"prerequisites": ["Education","Chivalry"],
-				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+				"quote": "'If a tree falls in a forest and no one is around to hear it, does it make a sound?' — Traditional philosophical question (attested in print by the 1880s)."
 			},
 			{
 				"name": "Banking",
 				"row": 6,
 				"prerequisites": ["Chivalry", "Education"],
-				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+				"quote": "'Every banker knows that if he has to prove he is worthy of credit, in fact his credit is gone.' — Walter Bagehot, Lombard Street (1873)."
 			},
 			{
 				"name": "Printing Press",
 				"row": 8,
 				"prerequisites": ["Machinery","Physics"],
-				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+				"quote": "'The printing press is the greatest weapon in the armoury of the modern commander.' —T. E. Lawrence, The Evolution of a Revolt (1920)."
 			},
 			{
 				"name": "Gunpowder",
 				"row": 10,
 				"prerequisites": ["Physics","Steel"],
-				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+				"quote": "'For sounds like thunder, and coruscations like lightning, may be made in the air… A small quantity of matter, properly prepared, no bigger than a thumb, produces a noise exceeding thunder and a flash brighter than lightning.' — Roger Bacon."
 			}
 		]
 	},
@@ -289,25 +289,25 @@
 				"name": "Navigation",
 				"row": 2,
 				"prerequisites": ["Astronomy"],
-				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+				"quote": "'I whose ambition leads me not only farther than any other man has been before me, but as far as I think it possible for man to go.' — Captain James Cook (journal, Jan 30, 1774)."
 			},
 			{
 				"name": "Economics",
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
-				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+				"quote": "'The ideas of economists and political philosophers, both when they are right and when they are wrong, are more powerful than is commonly understood. Indeed the world is ruled by little else.' — John Maynard Keynes, The General Theory of Employment, Interest and Money, Ch. 24."
 			},
 			{
 				"name": "Chemistry",
 				"row": 9,
 				"prerequisites": ["Gunpowder"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+				"quote": "'Nothing is lost, nothing is created, everything is transformed.' — Antoine Lavoisier, paraphrasing the law of conservation of mass."
 			},
 			{
 				"name": "Metallurgy",
 				"row": 10,
 				"prerequisites": ["Gunpowder"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+				"quote": "'Gold is for the mistress, silver for the maid, copper for the craftsman… But iron—cold iron—is master of them all.” — Rudyard Kipling."
 			}
 		]
 	},
@@ -322,31 +322,31 @@
 				"name": "Archaeology",
 				"row": 2,
 				"prerequisites": ["Navigation"],
-				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+				"quote": "'Can you see anything?' — 'Yes, wonderful things.' — Howard Carter, upon first peering into Tutankhamun’s tomb (Nov. 26, 1922)."
 			},
 			{
 				"name": "Scientific Theory",
 				"row": 4,
 				"prerequisites": ["Navigation","Acoustics","Economics"],
-				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+				"quote": "'A theory which is not refutable by any conceivable event is non-scientific. Irrefutability is not a virtue of a theory … but a vice.' — Karl Popper, Conjectures and Refutations."
 			},
 			{
 				"name": "Military Science",
 				"row": 6,
 				"prerequisites": ["Economics","Chemistry"],
-				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+				"quote": "'In war, the morale is to the physical as three to one.' — Napoleon Bonaparte."
 			},
 			{
 				"name": "Fertilizer",
 				"row": 9,
 				"prerequisites": ["Chemistry"],
-				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+				"quote": "'A manure containing several ingredients acts in this wise: the effect of all of them in the soil accommodates itself to that one among them which, in comparison to the wants of the plant, is present in the smallest quantity.' — Justus von Liebig, Natural Laws of Husbandry (1863)."
 			},
 			{
 				"name": "Rifling",
 				"row": 10,
 				"prerequisites": ["Metallurgy"],
-				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+				"quote": "'The rifle is a weapon. Let there be no mistake about that.' — Jeff Cooper, The Art of the Rifle."
 			}
 		]
 	},
@@ -355,26 +355,26 @@
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Biology",
 				"row": 4,
 				"prerequisites": ["Archaeology","Scientific Theory"],
-				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+				"quote": "'Life did not take over the globe by combat, but by networking.' — Lynn Margulis, Microcosmos"
 			},
 			{
 				"name": "Steam Power",
 				"row": 6,
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"prerequisites": ["Military Science","Scientific Theory"],
-				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+				"quote": "'I sell here, Sir, what all the world desires to have — Power.' — Matthew Boulton (on the Watt steam engine, 1776)."
 			},
 			{
 				"name": "Dynamite",
 				"row": 9,
 				"prerequisites": ["Fertilizer","Military Science","Rifling"],
-				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+				"quote": "'My dynamite will sooner lead to peace than a thousand world conventions. As soon as men will find that in one instant, whole armies can be utterly destroyed, they surely will abide by golden peace.' — Alfred Nobel."
 			}
 		]
 	},
@@ -389,19 +389,19 @@
 				"name": "Electricity",
 				"row": 4,
 				"prerequisites": ["Biology","Steam Power"],
-				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+				"quote": "'Why, sir, there is every probability that you will soon be able to tax it.' — Michael Faraday (to William Gladstone, on electricity)."
 			},
 			{
 				"name": "Replaceable Parts",
 				"row": 6,
 				"prerequisites": ["Steam Power"],
-				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+				"quote": "'In the past the man has been first; in the future the system must be first.' — Frederick Winslow Taylor, The Principles of Scientific Management."
 			},
 			{
 				"name": "Railroads",
 				"row": 8,
 				"prerequisites": ["Steam Power","Dynamite"],
-				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+				"quote": "'Faster than fairies, faster than witches, / Bridges and houses, hedges and ditches…' — Robert Louis Stevenson, 'From a Railway Carriage' (1885)."
 			}
 		]
 	},
@@ -415,32 +415,32 @@
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Electricity"], //todo: offshore platform should need this
-				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+				"prerequisites": ["Electricity"],
+				"quote": "'I found that foods frozen very quickly in the dead of winter kept their freshness as long as they were held at a low temperature.' — Clarence Birdseye."
 			},
 			{
 				"name": "Telegraph",
 				"row": 4,
 				"prerequisites": ["Electricity"],
-				"quote": "'I once sent a dozen of my friends a telegram saying 'flee at once-all is discovered!' They all left town immediately.' - Mark Twain"
+				"quote": "'We are in great haste to construct a magnetic telegraph from Maine to Texas; but Maine and Texas, it may be, have nothing important to communicate.' — Henry David Thoreau, Walden (1854)."
 			},
 			{
 				"name": "Radio",
 				"row": 5,
 				"prerequisites": ["Electricity"],
-				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+				"quote": "'Radio affects most intimately, person-to-person, offering a world of unspoken communication between writer-speaker and the listener.' — Marshall McLuhan, Understanding Media (1964)."
 			},
 			{
 				"name": "Flight",
 				"row": 6,
 				"prerequisites": ["Replaceable Parts"],
-				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+				"quote": "'The airplane has unveiled for us the true face of the earth.' — Antoine de Saint-Exupéry, Wind, Sand and Stars."
 			},
 			{
 				"name": "Combustion",
 				"row": 8,
 				"prerequisites": ["Railroads","Replaceable Parts"],
-				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+				"quote": "'The production of heat alone is not sufficient to give birth to impelling power; it is necessary that there should also be cold.' — Sadi Carnot, Reflections on the Motive Power of Fire (1824)."
 			}
 		]
 	},
@@ -455,37 +455,37 @@
 				"name": "Pharmaceuticals",
 				"row": 1,
 				"prerequisites": ["Refrigeration"],
-				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+				"quote": "'All things are poison and nothing is without poison; only the dose makes a thing not a poison.' — Paracelsus."
 			},
 			{
 				"name": "Plastics",
 				"row": 2,
 				"prerequisites": ["Refrigeration"],
-				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+				"quote": "'More than a substance, plastic is the very idea of its infinite transformation; as its everyday name indicates, it is ubiquity made visible.' — Roland Barthes, Mythologies ('Plastic')."
 			},
 			{
 				"name": "Electronics",
 				"row": 4,
 				"prerequisites": ["Telegraph"],
-				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+				"quote": "'The future of integrated electronics is the future of electronics itself.' — Gordon E. Moore, 1965."
 			},
 			{
 				"name": "Mass Media",
 				"row": 5,
 				"prerequisites": ["Radio"],
-				"quote": "'The speed of communications is wondrous to behold, it is also true that speed does multiply the distribution of information that we know to be untrue.' – Edward R. Murrow"
+				"quote": "'Freedom of the press is guaranteed only to those who own one.' — A. J. Liebling."
 			},
 			{
 				"name": "Radar",
 				"row": 6,
 				"prerequisites": ["Radio","Flight","Combustion"],
-				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+				"quote": "'Give them the third best to go on with; the second best comes too late, the best never comes.' — Sir Robert Watson-Watt (on developing radar)."
 			},
 			{
 				"name": "Atomic Theory",
 				"row": 10,
 				"prerequisites": ["Combustion"],
-				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+				"quote": "'The first principles of the universe are atoms and empty space; everything else is merely thought to exist.' — Diogenes Laertius on Democritus."
 			}
 		]
 	},
@@ -500,31 +500,31 @@
 				"name": "Ecology",
 				"row": 2,
 				"prerequisites": ["Plastics","Pharmaceuticals"],
-				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+				"quote": "'When we try to pick out anything by itself, we find it hitched to everything else in the universe.' — John Muir, My First Summer in the Sierra (1911)."
 			},
 			{
 				"name": "Computers",
 				"row": 4,
 				"prerequisites": ["Electronics","Mass Media","Radar"],
-				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+				"quote": "'We can only see a short distance ahead, but we can see plenty there that needs to be done.' — Alan Turing."
 			},
 			{
 				"name": "Rocketry",
 				"row": 6,
 				"prerequisites": ["Radar"],
-				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+				"quote": "'It is difficult to say what is impossible, for the dream of yesterday is the hope of today and the reality of tomorrow.' — Robert H. Goddard."
 			},
 			{
 				"name": "Lasers",
 				"row": 8,
 				"prerequisites": ["Radar"],
-				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+				"quote": "'A laser is a solution looking for a problem.' — Theodore H. Maiman."
 			},
 			{
 				"name": "Nuclear Fission",
 				"row": 10,
 				"prerequisites": ["Atomic Theory"],
-				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+				"quote": "'That night, there was very little doubt in my mind that the world was headed for grief.' — Leó Szilárd."
 			}
 		]
 	},
@@ -540,32 +540,32 @@
 				"cost": 9500,
 				"row": 2,
 				"prerequisites": ["Ecology","Computers"],
-				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+				"quote": "'The earth is but one country, and mankind its citizens.' — Bahá’u’lláh."
 			},
 			{
 				"name": "Robotics",
 				"row": 4,
 				"prerequisites": ["Computers"],
-				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+				"quote": "'Let us remember that the automatic machine is the precise economic equivalent of slave labor. Any labor which competes with slave labor must accept the economic consequences of slave labor.' — Norbert Wiener, Cybernetics."
 			},
 			{
 				"name": "Satellites",
 				"row": 6,
 				"prerequisites": ["Rocketry"],
 				"uniques": ["Reveals the entire map"],
-				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+				"quote": "'Earth is the cradle of humanity, but one cannot live in a cradle forever.' — Konstantin E. Tsiolkovsky (1911)."
 			},
 			{
 				"name": "Stealth",
 				"row": 8,
 				"prerequisites": ["Lasers"],
-				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+				"quote": "'The greatest trick the Devil ever pulled was convincing the world he didn’t exist.' — Charles Baudelaire; The Usual Suspects (1995)."
 			},
 			{
 				"name": "Advanced Ballistics",
 				"row": 10,
 				"prerequisites": ["Nuclear Fission","Lasers"],
-				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+				"quote": "'It has been observed that missiles and projectiles describe a curved path of some sort; however no one has pointed out the fact that this path is a parabola.' — Galileo Galilei, Dialogues Concerning Two New Sciences."
 			}
 		]
 	},
@@ -581,14 +581,14 @@
 				"name": "Particle Physics",
 				"row": 5,
 				"prerequisites": ["Robotics","Satellites"],
-				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+				"quote": "'Everything not forbidden is compulsory.' — Murray Gell-Mann, describing particle-physics interactions (the “totalitarian principle”)."
 			},
 			{
 				"name": "Nuclear Fusion",
 				"row": 8,
 				"prerequisites": ["Advanced Ballistics", "Satellites", "Stealth"],
-				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
-			},
+				"quote": "'A star is drawing on some vast reservoir of energy… we sometimes dream that man will one day learn to release it and use it for his service. The store is well-nigh inexhaustible, if only it could be tapped.' — Arthur Eddington, The Internal Constitution of the Stars (1926)."
+			}
 		]
 	},
 	{
@@ -602,7 +602,7 @@
 				"name": "Nanotechnology",
 				"row": 5,
 				"prerequisites": ["Particle Physics"],
-				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+				"quote": "'There’s plenty of room at the bottom.' — Richard Feynman (1959 lecture on manipulating matter atom-by-atom)."
 			}
 		]
 	},
@@ -618,8 +618,8 @@
 				"row": 7,
 				"prerequisites": ["Globalization","Nuclear Fusion","Nanotechnology"],
                 "uniques": ["Can be continually researched"],
-                "quote": "'I think we agree, the past is over.' - George W. Bush",
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
+                "quote": "'The future is already here — it’s just not evenly distributed.' — William Gibson.",
+                "civilopediaText": [{"text": "Who can say what comes next?"}]
 			}
 		]
 	}
